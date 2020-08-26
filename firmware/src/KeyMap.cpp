@@ -2,7 +2,14 @@
 #include "KeyMap.h"
 #include "Keyboard.h"
 
-int KeyMap::_map[] = {KEY_LEFT_SHIFT, 'j', 'e', 'f'};
+// clang-format off
+
+int KeyMap::_map[] = {
+    KEY_LEFT_SHIFT, 'j', 
+    'e', 'f'
+};
+
+// clang-format on
 
 int *KeyMap::getMap()
 {
