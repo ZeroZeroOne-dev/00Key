@@ -3,7 +3,6 @@
 
 #define COL_COUNT 2
 #define ROW_COUNT 2
-#define DEBOUNCE 10
 #define SCAN_DELAY 5
 #define PIN_CHANGE_DELAY 200
 

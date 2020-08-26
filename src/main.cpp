@@ -6,8 +6,7 @@
 const byte rowPins[] = {12, 11};
 const byte colPins[] = {4, 3};
 
-char *keyMap;
-byte keyStatus[ROW_COUNT * COL_COUNT] = {0};
+int *keyMap;
 
 #pragma region Translations
 
@@ -77,23 +76,13 @@ void loopScan()
       byte col = colPins[colIndex];
       byte index = getIndex(rowIndex, colIndex);
 
-      if (keyStatus[index] == 0 && digitalRead(col) == LOW)
+      if (digitalRead(col) == LOW)
       {
-        keyStatus[index] = DEBOUNCE * 2;
         pressKey(index);
       }
-      else if (keyStatus[index] > DEBOUNCE + 1)
+      else
       {
-        keyStatus[index]--;
-      }
-      else if (keyStatus[index] == DEBOUNCE + 1 && digitalRead(col) == HIGH)
-      {
-        keyStatus[index]--;
         releaseKey(index);
-      }
-      else if (keyStatus[index] > 0 && keyStatus[index] <= DEBOUNCE)
-      {
-        keyStatus[index]--;
       }
     }
 

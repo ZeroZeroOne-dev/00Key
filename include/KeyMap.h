@@ -6,10 +6,10 @@
 class KeyMap
 {
 public:
-    static char *getMap();
+    static int *getMap();
 
 private:
-    static char _map[];
+    static int _map[];
 };
 
 #endif

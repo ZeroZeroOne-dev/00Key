@@ -1,9 +1,10 @@
 #include <Arduino.h>
 #include "KeyMap.h"
+#include "Keyboard.h"
 
-char KeyMap::_map[] = {'q', 'w', 'e', 'r'};
+int KeyMap::_map[] = {KEY_LEFT_SHIFT, 'j', 'e', 'f'};
 
-char *KeyMap::getMap()
+int *KeyMap::getMap()
 {
     return KeyMap::_map;
 };
