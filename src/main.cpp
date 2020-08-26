@@ -1,21 +1,22 @@
 #include <Arduino.h>
-#include "KeyMap.h"
 #include "Globals.h"
+#include "KeyMap.h"
 #include "Keyboard.h"
 
 const byte rowPins[] = {12, 11};
 const byte colPins[] = {4, 3};
 
 char *keyMap;
+byte keyStatus[ROW_COUNT * COL_COUNT] = {0};
 
-#pragma region Keyboard
+#pragma region Translations
 
-void sendKey(byte key)
+byte getIndex(byte row, byte col)
 {
-  Keyboard.write(key);
+  return col + (row * COL_COUNT);
 }
 
-#pragma endregion Keyboard
+#pragma endregion Translations
 
 #pragma region KeyMap
 
@@ -24,13 +25,28 @@ void setupKeyMap()
   keyMap = KeyMap::getMap();
 }
 
-byte getKey(byte row, byte col)
+byte getKey(byte index)
 {
-  auto index = col + (row * COL_COUNT);
   return keyMap[index];
 }
 
 #pragma endregion KeyMap
+
+#pragma region Keyboard
+
+void pressKey(byte index)
+{
+  auto key = getKey(index);
+  Keyboard.press(key);
+}
+
+void releaseKey(byte index)
+{
+  auto key = getKey(index);
+  Keyboard.release(key);
+}
+
+#pragma endregion Keyboard
 
 #pragma region Scanning
 
@@ -54,16 +70,30 @@ void loopScan()
     byte row = rowPins[rowIndex];
 
     digitalWrite(row, LOW);
-    delayMicroseconds(200);
+    delayMicroseconds(PIN_CHANGE_DELAY);
 
     for (byte colIndex = 0; colIndex < COL_COUNT; colIndex++)
     {
       byte col = colPins[colIndex];
+      byte index = getIndex(rowIndex, colIndex);
 
-      if (digitalRead(col) == LOW)
+      if (keyStatus[index] == 0 && digitalRead(col) == LOW)
       {
-        auto key = getKey(rowIndex, colIndex);
-        sendKey(key);
+        keyStatus[index] = DEBOUNCE * 2;
+        pressKey(index);
+      }
+      else if (keyStatus[index] > DEBOUNCE + 1)
+      {
+        keyStatus[index]--;
+      }
+      else if (keyStatus[index] == DEBOUNCE + 1 && digitalRead(col) == HIGH)
+      {
+        keyStatus[index]--;
+        releaseKey(index);
+      }
+      else if (keyStatus[index] > 0 && keyStatus[index] <= DEBOUNCE)
+      {
+        keyStatus[index]--;
       }
     }
 
@@ -83,5 +113,5 @@ void setup()
 void loop()
 {
   loopScan();
-  delay(5);
+  delay(SCAN_DELAY);
 }
