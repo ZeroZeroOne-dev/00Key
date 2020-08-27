@@ -6,10 +6,10 @@
 // clang-format off
 
 const int KeyMap::_map[][ROW_COUNT][COL_COUNT] = {
-   [0] = {
+    [0] = {  
         { KEY_LEFT_SHIFT, 'j'}, 
-        {'e', 'f'}
-   }
+        {'e', 'f'} \
+    } 
 };
 
 // clang-format on
