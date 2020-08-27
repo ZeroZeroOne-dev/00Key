@@ -29,40 +29,17 @@ void loopOled()
 
 #pragma endregion Oled
 
-#pragma region Translations
-
-byte getIndex(byte row, byte col)
-{
-  return col + (row * COL_COUNT);
-}
-
-#pragma endregion Translations
-
-#pragma region KeyMap
-
-void setupKeyMap()
-{
-  keyMap = KeyMap::getMap();
-}
-
-byte getKey(byte index)
-{
-  return keyMap[index];
-}
-
-#pragma endregion KeyMap
-
 #pragma region Keyboard
 
-void pressKey(byte index)
+void pressKey(byte row, byte col)
 {
-  auto key = getKey(index);
+  auto key = KeyMap::getKey(row, col);
   Keyboard.press(key);
 }
 
-void releaseKey(byte index)
+void releaseKey(byte row, byte col)
 {
-  auto key = getKey(index);
+  auto key = KeyMap::getKey(row, col);
   Keyboard.release(key);
 }
 
@@ -95,15 +72,14 @@ void loopScan()
     for (byte colIndex = 0; colIndex < COL_COUNT; colIndex++)
     {
       byte col = colPins[colIndex];
-      byte index = getIndex(rowIndex, colIndex);
 
       if (digitalRead(col) == LOW)
       {
-        pressKey(index);
+        pressKey(rowIndex, colIndex);
       }
       else
       {
-        releaseKey(index);
+        releaseKey(rowIndex, colIndex);
       }
     }
 
@@ -116,7 +92,6 @@ void loopScan()
 void setup()
 {
   Serial.begin(115200);
-  setupKeyMap();
   setupScan();
   setupOled();
 }

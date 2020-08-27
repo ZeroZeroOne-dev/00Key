@@ -2,14 +2,15 @@
 #define KeyMap_h
 
 #include <Arduino.h>
+#include <Globals.h>
 
 class KeyMap
 {
 public:
-    static int *getMap();
+    static int getKey(byte row, byte col);
 
 private:
-    static int _map[];
+    static const int _map[][ROW_COUNT][COL_COUNT];
 };
 
 #endif
