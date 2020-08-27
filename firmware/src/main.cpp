@@ -1,33 +1,10 @@
 #include <Arduino.h>
-#include <U8g2lib.h>
-#include <SPI.h>
-#include <Wire.h>
-#include <Keyboard.h>
 #include "Globals.h"
 #include "KeyMap.h"
 
-const byte rowPins[] = {12, 11};
-const byte colPins[] = {4, 3};
+const byte rowPins[] = {33, 34};
+const byte colPins[] = {31, 32};
 int *keyMap;
-
-U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, SCL, SDA);
-
-#pragma region Oled
-
-void setupOled()
-{
-  u8g2.begin();
-}
-
-void loopOled()
-{
-  u8g2.clearBuffer();
-  u8g2.setFont(u8g2_font_logisoso32_tf);
-  u8g2.drawStr(0, 48, "00Key");
-  u8g2.sendBuffer();
-}
-
-#pragma endregion Oled
 
 #pragma region Keyboard
 
@@ -93,12 +70,10 @@ void setup()
 {
   Serial.begin(115200);
   setupScan();
-  setupOled();
 }
 
 void loop()
 {
   loopScan();
-  loopOled();
   delay(SCAN_DELAY);
 }

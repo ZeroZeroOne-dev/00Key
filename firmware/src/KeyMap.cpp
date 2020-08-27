@@ -1,14 +1,13 @@
 #include <Arduino.h>
 #include "KeyMap.h"
-#include "Keyboard.h"
 #include "Globals.h"
 
 // clang-format off
 
 const int KeyMap::_map[][ROW_COUNT][COL_COUNT] = {
     [0] = {  
-        { KEY_LEFT_SHIFT, 'j'}, 
-        {'e', 'f'} \
+        { KEY_LEFT_SHIFT, KEY_J }, 
+        { KEY_E, KEY_F }
     } 
 };
 
