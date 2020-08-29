@@ -5,13 +5,9 @@
 #include "Globals.h"
 #include "KeyMap.h"
 
-const byte rowPins[] = {33, 34};
-const byte colPins[] = {31, 32};
-int *keyMap;
+#pragma region OLED
 
 Adafruit_SSD1306 display(128, 64, &Wire2, -1);
-
-#pragma region OLED
 
 void setupOled()
 {
@@ -48,6 +44,9 @@ void releaseKey(byte row, byte col)
 #pragma endregion Keyboard
 
 #pragma region Scanning
+
+const byte rowPins[] = {33, 34};
+const byte colPins[] = {31, 32};
 
 void setupScan()
 {
