@@ -27,22 +27,6 @@ void loopOled()
 
 #pragma endregion OLED
 
-#pragma region Keyboard
-
-void pressKey(byte row, byte col)
-{
-  auto key = KeyMap::getKey(row, col);
-  Keyboard.press(key);
-}
-
-void releaseKey(byte row, byte col)
-{
-  auto key = KeyMap::getKey(row, col);
-  Keyboard.release(key);
-}
-
-#pragma endregion Keyboard
-
 #pragma region Scanning
 
 const byte rowPins[] = {33, 34};
@@ -76,11 +60,11 @@ void loopScan()
 
       if (digitalRead(col) == LOW)
       {
-        pressKey(rowIndex, colIndex);
+        KeyMap::pressKey(rowIndex, colIndex);
       }
       else
       {
-        releaseKey(rowIndex, colIndex);
+        KeyMap::releaseKey(rowIndex, colIndex);
       }
     }
 
