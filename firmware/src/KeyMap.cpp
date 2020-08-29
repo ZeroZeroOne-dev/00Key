@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "KeyMap.h"
 #include "Globals.h"
+#include "OLED.h"
 
 // clang-format off
 
@@ -35,4 +36,5 @@ void KeyMap::moveLayer()
     {
         _currentLayer = 0;
     }
+    OLED::setLayer(_currentLayer);
 };
