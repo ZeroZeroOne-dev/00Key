@@ -1,7 +1,8 @@
 #include <Arduino.h>
 #include "Scanner.h"
-#include "KeyMap.h"
 #include "Globals.h"
+#include "KeyMap.h"
+#include "Actions.h"
 
 const byte rowPins[] = {33, 34};
 const byte colPins[] = {31, 32};
@@ -27,9 +28,17 @@ void pressKey(byte row, byte col)
         return;
     }
 
-    auto key = KeyMap::getKey(row, col);
     statusMap[row][col] = true;
-    Keyboard.press(key);
+    auto key = KeyMap::getKey(row, col);
+    auto action = Actions::getAction(key);
+    if (action == NULL)
+    {
+        Keyboard.press(key);
+    }
+    else if (action())
+    {
+        Keyboard.press(key);
+    }
 }
 
 void releaseKey(byte row, byte col)

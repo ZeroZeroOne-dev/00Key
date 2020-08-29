@@ -3,13 +3,17 @@
 
 #include <Arduino.h>
 #include <Globals.h>
+#include <map>
 
 typedef bool (*action)();
 
 class Actions
 {
 public:
-    static action getAction(bool statusMap[ROW_COUNT][COL_COUNT]);
+    static action getAction(int key);
+
+private:
+    static const std::map<int, action> actionMap;
 };
 
 #endif
