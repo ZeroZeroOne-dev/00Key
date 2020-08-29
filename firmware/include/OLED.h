@@ -4,8 +4,9 @@
 class OLED
 {
 public:
-    static void setLayer(int layer);
     static void setup();
+    static void setLayer(int layer);
+    static void setBacklight(String level);
 };
 
 #endif

@@ -5,7 +5,7 @@
 #include <Globals.h>
 #include <map>
 
-typedef bool (*action)();
+typedef void (*action)();
 
 class Actions
 {

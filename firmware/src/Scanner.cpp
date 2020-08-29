@@ -35,9 +35,9 @@ void pressKey(byte row, byte col)
     {
         Keyboard.press(key);
     }
-    else if (action())
+    else
     {
-        Keyboard.press(key);
+        action();
     }
 }
 

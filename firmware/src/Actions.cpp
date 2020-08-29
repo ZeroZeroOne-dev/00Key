@@ -1,18 +1,15 @@
+#include <map>
 #include "Globals.h"
 #include "Actions.h"
 #include "KeyMap.h"
-#include <map>
-
-bool moveLayer()
-{
-    KeyMap::moveLayer();
-    return false;
-}
+#include "Backlight.h"
 
 // clang-format off
 
 const std::map<int, action> Actions::actionMap = {
-    {KEY_00KEY_MOVELAYER, moveLayer}
+    {KEY_00KEY_MOVELAYER, KeyMap::moveLayer},
+    {KEY_00KEY_BLUP, Backlight::up},
+    {KEY_00KEY_BLDOWN, Backlight::down},
 };
 
 // clang-format on
