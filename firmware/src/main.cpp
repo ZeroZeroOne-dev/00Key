@@ -4,6 +4,7 @@
 #include <Fonts/FreeSans18pt7b.h>
 #include "Globals.h"
 #include "KeyMap.h"
+#include "Scanner.h"
 
 #pragma region OLED
 
@@ -27,63 +28,16 @@ void loopOled()
 
 #pragma endregion OLED
 
-#pragma region Scanning
-
-const byte rowPins[] = {33, 34};
-const byte colPins[] = {31, 32};
-
-void setupScan()
-{
-  for (byte i = 0; i < COL_COUNT; i++)
-  {
-    pinMode(colPins[i], INPUT_PULLUP);
-  }
-
-  for (byte i = 0; i < ROW_COUNT; i++)
-  {
-    pinMode(rowPins[i], OUTPUT);
-  }
-}
-
-void loopScan()
-{
-  for (byte rowIndex = 0; rowIndex < ROW_COUNT; rowIndex++)
-  {
-    byte row = rowPins[rowIndex];
-
-    digitalWrite(row, LOW);
-    delayMicroseconds(PIN_CHANGE_DELAY);
-
-    for (byte colIndex = 0; colIndex < COL_COUNT; colIndex++)
-    {
-      byte col = colPins[colIndex];
-
-      if (digitalRead(col) == LOW)
-      {
-        KeyMap::pressKey(rowIndex, colIndex);
-      }
-      else
-      {
-        KeyMap::releaseKey(rowIndex, colIndex);
-      }
-    }
-
-    digitalWrite(row, HIGH);
-  }
-}
-
-#pragma endregion Scanning
-
 void setup()
 {
   Serial.begin(115200);
-  setupScan();
+  Scanner::setup();
   setupOled();
 }
 
 void loop()
 {
-  loopScan();
+  Scanner::loop();
   loopOled();
   delay(SCAN_DELAY);
 }
