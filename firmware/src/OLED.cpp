@@ -15,15 +15,16 @@ void draw()
 
     display.setFont(&FreeSansBold9pt7b);
     display.setCursor(0, 12);
-    display.print("00Key");
+    display.print("00Key v1");
+    display.drawLine(0, 15, 75, 15, WHITE);
 
     display.setFont(&FreeSans9pt7b);
-    display.setCursor(0, 34);
+    display.setCursor(0, 36);
     display.print("Layer: ");
     display.print(_layer);
 
     display.setCursor(0, 59);
-    display.print("BLight: ");
+    display.print("Light: ");
     display.print(_blLevel);
 
     display.display();
