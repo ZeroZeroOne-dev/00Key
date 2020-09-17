@@ -12,10 +12,7 @@ void writeCurrent()
 
     int percentage = (double)currentLevel / 255 * 100;
 
-    char charBuffer[4];
-    sprintf(charBuffer, "%d%%", percentage);
-
-    OLED::setBacklight(charBuffer);
+    OLED::setBacklight(percentage);
 }
 
 void Backlight::setup()

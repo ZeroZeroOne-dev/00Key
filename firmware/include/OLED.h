@@ -6,7 +6,7 @@ class OLED
 public:
     static void setup();
     static void setLayer(int layer);
-    static void setBacklight(String level);
+    static void setBacklight(int percentage);
 };
 
 #endif

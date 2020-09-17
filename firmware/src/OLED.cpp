@@ -7,7 +7,7 @@
 
 Adafruit_SSD1306 display(128, 64, &Wire2, -1);
 int _layer = 0;
-String _blLevel = "0";
+int _blPercentage = 0;
 
 void draw()
 {
@@ -25,7 +25,7 @@ void draw()
 
     display.setCursor(0, 59);
     display.print("Light: ");
-    display.print(_blLevel);
+    display.print(_blPercentage);
 
     display.display();
 }
@@ -47,8 +47,8 @@ void OLED::setLayer(int layer)
     draw();
 }
 
-void OLED::setBacklight(String level)
+void OLED::setBacklight(int percentage)
 {
-    _blLevel = level;
+    _blPercentage = percentage;
     draw();
 }
