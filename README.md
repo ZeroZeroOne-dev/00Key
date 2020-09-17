@@ -2,7 +2,7 @@
 
 Custom 75% Keyboard.
 
-## hardware
+## Hardware
 
 - Teensy 4.1 development board
 - Velleman 0.96" OLED-display (I2C, SSD1306)
