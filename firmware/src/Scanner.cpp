@@ -31,13 +31,9 @@ void pressKey(byte row, byte col)
     statusMap[row][col] = true;
     auto key = KeyMap::getKey(row, col);
     auto action = Actions::getAction(key);
-    if (action == NULL)
+    if (action == NULL || action())
     {
         Keyboard.press(key);
-    }
-    else
-    {
-        action();
     }
 }
 

@@ -13,6 +13,10 @@ const int KeyMap::_map[][ROW_COUNT][COL_COUNT] = {
     [1] = {
         { KEY_00KEY_MOVELAYER, KEY_PERIOD }, 
         { KEY_00KEY_BLDOWN, KEY_00KEY_BLUP }
+    },
+    [2] = {
+        { KEY_00KEY_MOVELAYER, KEY_CAPS_LOCK },
+        { KEY_UP_ARROW, KEY_DOWN_ARROW }
     }
 };
 

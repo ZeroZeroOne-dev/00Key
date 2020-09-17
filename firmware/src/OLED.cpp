@@ -8,6 +8,7 @@
 Adafruit_SSD1306 display(128, 64, &Wire2, -1);
 int _layer = 0;
 int _blPercentage = 0;
+bool _capsOn = false;
 
 void draw()
 {
@@ -26,6 +27,13 @@ void draw()
     display.setCursor(0, 59);
     display.print("Light: ");
     display.print(_blPercentage);
+
+    if (_capsOn)
+    {
+        display.setCursor(114, 14);
+        display.print("A");
+        display.drawRect(111, 0, 17, 17, WHITE);
+    }
 
     display.display();
 }
@@ -50,5 +58,11 @@ void OLED::setLayer(int layer)
 void OLED::setBacklight(int percentage)
 {
     _blPercentage = percentage;
+    draw();
+}
+
+void OLED::toggleCaps()
+{
+    _capsOn = !_capsOn;
     draw();
 }
