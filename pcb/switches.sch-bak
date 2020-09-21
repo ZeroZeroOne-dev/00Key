@@ -1612,10 +1612,10 @@ F 3 "~" H 16000 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_CAPS
 U 1 1 5F797A95
 P 1000 4750
-F 0 "D?" V 1046 4670 50  0000 R CNN
+F 0 "D_CAPS" V 1046 4670 50  0000 R CNN
 F 1 "D" V 955 4670 50  0000 R CNN
 F 2 "" H 1000 4750 50  0001 C CNN
 F 3 "~" H 1000 4750 50  0001 C CNN
@@ -1623,10 +1623,10 @@ F 3 "~" H 1000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_A
 U 1 1 5F797AA1
 P 3000 4750
-F 0 "D?" V 3046 4670 50  0000 R CNN
+F 0 "D_A" V 3046 4670 50  0000 R CNN
 F 1 "D" V 2955 4670 50  0000 R CNN
 F 2 "" H 3000 4750 50  0001 C CNN
 F 3 "~" H 3000 4750 50  0001 C CNN
@@ -1634,10 +1634,10 @@ F 3 "~" H 3000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_S
 U 1 1 5F797AA7
 P 4000 4750
-F 0 "D?" V 4046 4670 50  0000 R CNN
+F 0 "D_S" V 4046 4670 50  0000 R CNN
 F 1 "D" V 3955 4670 50  0000 R CNN
 F 2 "" H 4000 4750 50  0001 C CNN
 F 3 "~" H 4000 4750 50  0001 C CNN
@@ -1645,10 +1645,10 @@ F 3 "~" H 4000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_D
 U 1 1 5F797AAD
 P 5000 4750
-F 0 "D?" V 5046 4670 50  0000 R CNN
+F 0 "D_D" V 5046 4670 50  0000 R CNN
 F 1 "D" V 4955 4670 50  0000 R CNN
 F 2 "" H 5000 4750 50  0001 C CNN
 F 3 "~" H 5000 4750 50  0001 C CNN
@@ -1656,10 +1656,10 @@ F 3 "~" H 5000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_F
 U 1 1 5F797AB3
 P 6000 4750
-F 0 "D?" V 6046 4670 50  0000 R CNN
+F 0 "D_F" V 6046 4670 50  0000 R CNN
 F 1 "D" V 5955 4670 50  0000 R CNN
 F 2 "" H 6000 4750 50  0001 C CNN
 F 3 "~" H 6000 4750 50  0001 C CNN
@@ -1667,10 +1667,10 @@ F 3 "~" H 6000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_G
 U 1 1 5F797AB9
 P 7000 4750
-F 0 "D?" V 7046 4670 50  0000 R CNN
+F 0 "D_G" V 7046 4670 50  0000 R CNN
 F 1 "D" V 6955 4670 50  0000 R CNN
 F 2 "" H 7000 4750 50  0001 C CNN
 F 3 "~" H 7000 4750 50  0001 C CNN
@@ -1678,10 +1678,10 @@ F 3 "~" H 7000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_H
 U 1 1 5F797ABF
 P 8000 4750
-F 0 "D?" V 8046 4670 50  0000 R CNN
+F 0 "D_H" V 8046 4670 50  0000 R CNN
 F 1 "D" V 7955 4670 50  0000 R CNN
 F 2 "" H 8000 4750 50  0001 C CNN
 F 3 "~" H 8000 4750 50  0001 C CNN
@@ -1689,10 +1689,10 @@ F 3 "~" H 8000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_J
 U 1 1 5F797AC5
 P 9000 4750
-F 0 "D?" V 9046 4670 50  0000 R CNN
+F 0 "D_J" V 9046 4670 50  0000 R CNN
 F 1 "D" V 8955 4670 50  0000 R CNN
 F 2 "" H 9000 4750 50  0001 C CNN
 F 3 "~" H 9000 4750 50  0001 C CNN
@@ -1700,10 +1700,10 @@ F 3 "~" H 9000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_K
 U 1 1 5F797ACB
 P 10000 4750
-F 0 "D?" V 10046 4670 50  0000 R CNN
+F 0 "D_K" V 10046 4670 50  0000 R CNN
 F 1 "D" V 9955 4670 50  0000 R CNN
 F 2 "" H 10000 4750 50  0001 C CNN
 F 3 "~" H 10000 4750 50  0001 C CNN
@@ -1711,10 +1711,10 @@ F 3 "~" H 10000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_L
 U 1 1 5F797AD1
 P 11000 4750
-F 0 "D?" V 11046 4670 50  0000 R CNN
+F 0 "D_L" V 11046 4670 50  0000 R CNN
 F 1 "D" V 10955 4670 50  0000 R CNN
 F 2 "" H 11000 4750 50  0001 C CNN
 F 3 "~" H 11000 4750 50  0001 C CNN
@@ -1722,10 +1722,10 @@ F 3 "~" H 11000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_SEMIC
 U 1 1 5F797AD7
 P 12000 4750
-F 0 "D?" V 12046 4670 50  0000 R CNN
+F 0 "D_SEMIC" V 12046 4670 50  0000 R CNN
 F 1 "D" V 11955 4670 50  0000 R CNN
 F 2 "" H 12000 4750 50  0001 C CNN
 F 3 "~" H 12000 4750 50  0001 C CNN
@@ -1733,10 +1733,10 @@ F 3 "~" H 12000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_QUOTE
 U 1 1 5F797ADD
 P 13000 4750
-F 0 "D?" V 13046 4670 50  0000 R CNN
+F 0 "D_QUOTE" V 13046 4670 50  0000 R CNN
 F 1 "D" V 12955 4670 50  0000 R CNN
 F 2 "" H 13000 4750 50  0001 C CNN
 F 3 "~" H 13000 4750 50  0001 C CNN
@@ -1744,10 +1744,10 @@ F 3 "~" H 13000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_ENTER
 U 1 1 5F797AE3
 P 14000 4750
-F 0 "D?" V 14046 4670 50  0000 R CNN
+F 0 "D_ENTER" V 14046 4670 50  0000 R CNN
 F 1 "D" V 13955 4670 50  0000 R CNN
 F 2 "" H 14000 4750 50  0001 C CNN
 F 3 "~" H 14000 4750 50  0001 C CNN
@@ -1755,10 +1755,10 @@ F 3 "~" H 14000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_PGDN
 U 1 1 5F797AEF
 P 16000 4750
-F 0 "D?" V 16046 4670 50  0000 R CNN
+F 0 "D_PGDN" V 16046 4670 50  0000 R CNN
 F 1 "D" V 15955 4670 50  0000 R CNN
 F 2 "" H 16000 4750 50  0001 C CNN
 F 3 "~" H 16000 4750 50  0001 C CNN
@@ -1766,10 +1766,10 @@ F 3 "~" H 16000 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_LSHIFT
 U 1 1 5F79D3D5
 P 2000 5750
-F 0 "D?" V 2046 5670 50  0000 R CNN
+F 0 "D_LSHIFT" V 2046 5670 50  0000 R CNN
 F 1 "D" V 1955 5670 50  0000 R CNN
 F 2 "" H 2000 5750 50  0001 C CNN
 F 3 "~" H 2000 5750 50  0001 C CNN
@@ -1777,10 +1777,10 @@ F 3 "~" H 2000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_Z
 U 1 1 5F79D3DB
 P 3000 5750
-F 0 "D?" V 3046 5670 50  0000 R CNN
+F 0 "D_Z" V 3046 5670 50  0000 R CNN
 F 1 "D" V 2955 5670 50  0000 R CNN
 F 2 "" H 3000 5750 50  0001 C CNN
 F 3 "~" H 3000 5750 50  0001 C CNN
@@ -1788,10 +1788,10 @@ F 3 "~" H 3000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_X
 U 1 1 5F79D3E1
 P 4000 5750
-F 0 "D?" V 4046 5670 50  0000 R CNN
+F 0 "D_X" V 4046 5670 50  0000 R CNN
 F 1 "D" V 3955 5670 50  0000 R CNN
 F 2 "" H 4000 5750 50  0001 C CNN
 F 3 "~" H 4000 5750 50  0001 C CNN
@@ -1799,10 +1799,10 @@ F 3 "~" H 4000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_C
 U 1 1 5F79D3E7
 P 5000 5750
-F 0 "D?" V 5046 5670 50  0000 R CNN
+F 0 "D_C" V 5046 5670 50  0000 R CNN
 F 1 "D" V 4955 5670 50  0000 R CNN
 F 2 "" H 5000 5750 50  0001 C CNN
 F 3 "~" H 5000 5750 50  0001 C CNN
@@ -1810,10 +1810,10 @@ F 3 "~" H 5000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_V
 U 1 1 5F79D3ED
 P 6000 5750
-F 0 "D?" V 6046 5670 50  0000 R CNN
+F 0 "D_V" V 6046 5670 50  0000 R CNN
 F 1 "D" V 5955 5670 50  0000 R CNN
 F 2 "" H 6000 5750 50  0001 C CNN
 F 3 "~" H 6000 5750 50  0001 C CNN
@@ -1821,10 +1821,10 @@ F 3 "~" H 6000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_B
 U 1 1 5F79D3F3
 P 7000 5750
-F 0 "D?" V 7046 5670 50  0000 R CNN
+F 0 "D_B" V 7046 5670 50  0000 R CNN
 F 1 "D" V 6955 5670 50  0000 R CNN
 F 2 "" H 7000 5750 50  0001 C CNN
 F 3 "~" H 7000 5750 50  0001 C CNN
@@ -1832,10 +1832,10 @@ F 3 "~" H 7000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_N
 U 1 1 5F79D3F9
 P 8000 5750
-F 0 "D?" V 8046 5670 50  0000 R CNN
+F 0 "D_N" V 8046 5670 50  0000 R CNN
 F 1 "D" V 7955 5670 50  0000 R CNN
 F 2 "" H 8000 5750 50  0001 C CNN
 F 3 "~" H 8000 5750 50  0001 C CNN
@@ -1843,10 +1843,10 @@ F 3 "~" H 8000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_M
 U 1 1 5F79D3FF
 P 9000 5750
-F 0 "D?" V 9046 5670 50  0000 R CNN
+F 0 "D_M" V 9046 5670 50  0000 R CNN
 F 1 "D" V 8955 5670 50  0000 R CNN
 F 2 "" H 9000 5750 50  0001 C CNN
 F 3 "~" H 9000 5750 50  0001 C CNN
@@ -1854,10 +1854,10 @@ F 3 "~" H 9000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_COMMA
 U 1 1 5F79D405
 P 10000 5750
-F 0 "D?" V 10046 5670 50  0000 R CNN
+F 0 "D_COMMA" V 10046 5670 50  0000 R CNN
 F 1 "D" V 9955 5670 50  0000 R CNN
 F 2 "" H 10000 5750 50  0001 C CNN
 F 3 "~" H 10000 5750 50  0001 C CNN
@@ -1865,10 +1865,10 @@ F 3 "~" H 10000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_DOT
 U 1 1 5F79D40B
 P 11000 5750
-F 0 "D?" V 11046 5670 50  0000 R CNN
+F 0 "D_DOT" V 11046 5670 50  0000 R CNN
 F 1 "D" V 10955 5670 50  0000 R CNN
 F 2 "" H 11000 5750 50  0001 C CNN
 F 3 "~" H 11000 5750 50  0001 C CNN
@@ -1876,10 +1876,10 @@ F 3 "~" H 11000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_SLASH
 U 1 1 5F79D411
 P 12000 5750
-F 0 "D?" V 12046 5670 50  0000 R CNN
+F 0 "D_SLASH" V 12046 5670 50  0000 R CNN
 F 1 "D" V 11955 5670 50  0000 R CNN
 F 2 "" H 12000 5750 50  0001 C CNN
 F 3 "~" H 12000 5750 50  0001 C CNN
@@ -1887,10 +1887,10 @@ F 3 "~" H 12000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_RSHIFT
 U 1 1 5F79D41D
 P 14000 5750
-F 0 "D?" V 14046 5670 50  0000 R CNN
+F 0 "D_RSHIFT" V 14046 5670 50  0000 R CNN
 F 1 "D" V 13955 5670 50  0000 R CNN
 F 2 "" H 14000 5750 50  0001 C CNN
 F 3 "~" H 14000 5750 50  0001 C CNN
@@ -1898,10 +1898,10 @@ F 3 "~" H 14000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_UP
 U 1 1 5F79D423
 P 15000 5750
-F 0 "D?" V 15046 5670 50  0000 R CNN
+F 0 "D_UP" V 15046 5670 50  0000 R CNN
 F 1 "D" V 14955 5670 50  0000 R CNN
 F 2 "" H 15000 5750 50  0001 C CNN
 F 3 "~" H 15000 5750 50  0001 C CNN
@@ -1909,10 +1909,10 @@ F 3 "~" H 15000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_END
 U 1 1 5F79D429
 P 16000 5750
-F 0 "D?" V 16046 5670 50  0000 R CNN
+F 0 "D_END" V 16046 5670 50  0000 R CNN
 F 1 "D" V 15955 5670 50  0000 R CNN
 F 2 "" H 16000 5750 50  0001 C CNN
 F 3 "~" H 16000 5750 50  0001 C CNN
@@ -1920,10 +1920,10 @@ F 3 "~" H 16000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_LCTRL
 U 1 1 5F7A1E27
 P 1000 6750
-F 0 "D?" V 1046 6670 50  0000 R CNN
+F 0 "D_LCTRL" V 1046 6670 50  0000 R CNN
 F 1 "D" V 955 6670 50  0000 R CNN
 F 2 "" H 1000 6750 50  0001 C CNN
 F 3 "~" H 1000 6750 50  0001 C CNN
@@ -1931,10 +1931,10 @@ F 3 "~" H 1000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_OS
 U 1 1 5F7A1E2D
 P 2000 6750
-F 0 "D?" V 2046 6670 50  0000 R CNN
+F 0 "D_OS" V 2046 6670 50  0000 R CNN
 F 1 "D" V 1955 6670 50  0000 R CNN
 F 2 "" H 2000 6750 50  0001 C CNN
 F 3 "~" H 2000 6750 50  0001 C CNN
@@ -1942,10 +1942,10 @@ F 3 "~" H 2000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_LALT
 U 1 1 5F7A1E39
 P 4000 6750
-F 0 "D?" V 4046 6670 50  0000 R CNN
+F 0 "D_LALT" V 4046 6670 50  0000 R CNN
 F 1 "D" V 3955 6670 50  0000 R CNN
 F 2 "" H 4000 6750 50  0001 C CNN
 F 3 "~" H 4000 6750 50  0001 C CNN
@@ -1953,10 +1953,10 @@ F 3 "~" H 4000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_SPACE
 U 1 1 5F7A1E4B
 P 7000 6750
-F 0 "D?" V 7046 6670 50  0000 R CNN
+F 0 "D_SPACE" V 7046 6670 50  0000 R CNN
 F 1 "D" V 6955 6670 50  0000 R CNN
 F 2 "" H 7000 6750 50  0001 C CNN
 F 3 "~" H 7000 6750 50  0001 C CNN
@@ -1964,10 +1964,10 @@ F 3 "~" H 7000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_RALT
 U 1 1 5F7A1E63
 P 11000 6750
-F 0 "D?" V 11046 6670 50  0000 R CNN
+F 0 "D_RALT" V 11046 6670 50  0000 R CNN
 F 1 "D" V 10955 6670 50  0000 R CNN
 F 2 "" H 11000 6750 50  0001 C CNN
 F 3 "~" H 11000 6750 50  0001 C CNN
@@ -1975,10 +1975,10 @@ F 3 "~" H 11000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_FN
 U 1 1 5F7A1E69
 P 12000 6750
-F 0 "D?" V 12046 6670 50  0000 R CNN
+F 0 "D_FN" V 12046 6670 50  0000 R CNN
 F 1 "D" V 11955 6670 50  0000 R CNN
 F 2 "" H 12000 6750 50  0001 C CNN
 F 3 "~" H 12000 6750 50  0001 C CNN
@@ -1986,10 +1986,10 @@ F 3 "~" H 12000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_RCTRL
 U 1 1 5F7A1E6F
 P 13000 6750
-F 0 "D?" V 13046 6670 50  0000 R CNN
+F 0 "D_RCTRL" V 13046 6670 50  0000 R CNN
 F 1 "D" V 12955 6670 50  0000 R CNN
 F 2 "" H 13000 6750 50  0001 C CNN
 F 3 "~" H 13000 6750 50  0001 C CNN
@@ -1997,10 +1997,10 @@ F 3 "~" H 13000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_LEFT
 U 1 1 5F7A1E75
 P 14000 6750
-F 0 "D?" V 14046 6670 50  0000 R CNN
+F 0 "D_LEFT" V 14046 6670 50  0000 R CNN
 F 1 "D" V 13955 6670 50  0000 R CNN
 F 2 "" H 14000 6750 50  0001 C CNN
 F 3 "~" H 14000 6750 50  0001 C CNN
@@ -2008,10 +2008,10 @@ F 3 "~" H 14000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_DOWN
 U 1 1 5F7A1E7B
 P 15000 6750
-F 0 "D?" V 15046 6670 50  0000 R CNN
+F 0 "D_DOWN" V 15046 6670 50  0000 R CNN
 F 1 "D" V 14955 6670 50  0000 R CNN
 F 2 "" H 15000 6750 50  0001 C CNN
 F 3 "~" H 15000 6750 50  0001 C CNN
@@ -2019,14 +2019,540 @@ F 3 "~" H 15000 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D_RIGHT
 U 1 1 5F7A1E81
 P 16000 6750
-F 0 "D?" V 16046 6670 50  0000 R CNN
+F 0 "D_RIGHT" V 16046 6670 50  0000 R CNN
 F 1 "D" V 15955 6670 50  0000 R CNN
 F 2 "" H 16000 6750 50  0001 C CNN
 F 3 "~" H 16000 6750 50  0001 C CNN
 	1    16000 6750
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1600 1000 1600 1500
+Wire Wire Line
+	1600 1500 1600 2500
+Connection ~ 1600 1500
+Wire Wire Line
+	1600 2500 1600 3500
+Connection ~ 1600 2500
+Wire Wire Line
+	1600 3500 1600 4500
+Connection ~ 1600 3500
+Wire Wire Line
+	1600 4500 1600 6500
+Connection ~ 1600 4500
+Wire Wire Line
+	2600 1000 2600 1500
+Wire Wire Line
+	2600 1500 2600 2500
+Connection ~ 2600 1500
+Wire Wire Line
+	2600 2500 2600 5500
+Connection ~ 2600 2500
+Wire Wire Line
+	2600 5500 2600 6500
+Connection ~ 2600 5500
+Wire Wire Line
+	3600 1000 3600 1500
+Wire Wire Line
+	3600 1500 3600 2500
+Connection ~ 3600 1500
+Wire Wire Line
+	3600 2500 3600 3500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 4500 3600 3500
+Connection ~ 3600 3500
+Wire Wire Line
+	3600 4500 3600 5500
+Connection ~ 3600 4500
+Wire Wire Line
+	4600 1000 4600 1500
+Wire Wire Line
+	4600 1500 4600 2500
+Connection ~ 4600 1500
+Wire Wire Line
+	4600 2500 4600 3500
+Connection ~ 4600 2500
+Wire Wire Line
+	4600 3500 4600 4500
+Connection ~ 4600 3500
+Wire Wire Line
+	4600 4500 4600 5500
+Connection ~ 4600 4500
+Wire Wire Line
+	4600 5500 4600 6500
+Connection ~ 4600 5500
+Wire Wire Line
+	5600 1000 5600 1500
+Wire Wire Line
+	5600 1500 5600 2500
+Connection ~ 5600 1500
+Wire Wire Line
+	5600 2500 5600 3500
+Connection ~ 5600 2500
+Wire Wire Line
+	5600 3500 5600 4500
+Connection ~ 5600 3500
+Wire Wire Line
+	5600 4500 5600 5500
+Connection ~ 5600 4500
+Wire Wire Line
+	6600 1000 6600 1500
+Wire Wire Line
+	6600 1500 6600 2500
+Connection ~ 6600 1500
+Wire Wire Line
+	6600 2500 6600 3500
+Connection ~ 6600 2500
+Wire Wire Line
+	6600 3500 6600 4500
+Connection ~ 6600 3500
+Wire Wire Line
+	6600 4500 6600 5500
+Connection ~ 6600 4500
+Wire Wire Line
+	7600 1000 7600 1500
+Wire Wire Line
+	7600 1500 7600 2500
+Connection ~ 7600 1500
+Wire Wire Line
+	7600 2500 7600 3500
+Connection ~ 7600 2500
+Wire Wire Line
+	7600 3500 7600 4500
+Connection ~ 7600 3500
+Wire Wire Line
+	7600 4500 7600 5500
+Connection ~ 7600 4500
+Wire Wire Line
+	7600 5500 7600 6500
+Connection ~ 7600 5500
+Wire Wire Line
+	8600 1000 8600 1500
+Wire Wire Line
+	8600 1500 8600 2500
+Connection ~ 8600 1500
+Wire Wire Line
+	8600 2500 8600 3500
+Connection ~ 8600 2500
+Wire Wire Line
+	8600 3500 8600 4500
+Connection ~ 8600 3500
+Wire Wire Line
+	8600 4500 8600 5500
+Connection ~ 8600 4500
+Wire Wire Line
+	9600 1000 9600 1500
+Wire Wire Line
+	9600 1500 9600 2500
+Connection ~ 9600 1500
+Wire Wire Line
+	9600 2500 9600 3500
+Connection ~ 9600 2500
+Wire Wire Line
+	9600 3500 9600 4500
+Connection ~ 9600 3500
+Wire Wire Line
+	9600 4500 9600 5500
+Connection ~ 9600 4500
+Wire Wire Line
+	10600 1000 10600 1500
+Wire Wire Line
+	10600 1500 10600 2500
+Connection ~ 10600 1500
+Wire Wire Line
+	10600 2500 10600 3500
+Connection ~ 10600 2500
+Wire Wire Line
+	10600 3500 10600 4500
+Connection ~ 10600 3500
+Wire Wire Line
+	10600 4500 10600 5500
+Connection ~ 10600 4500
+Wire Wire Line
+	11600 1000 11600 1500
+Wire Wire Line
+	11600 1500 11600 2500
+Connection ~ 11600 1500
+Wire Wire Line
+	11600 2500 11600 3500
+Connection ~ 11600 2500
+Wire Wire Line
+	11600 3500 11600 4500
+Connection ~ 11600 3500
+Wire Wire Line
+	11600 4500 11600 5500
+Connection ~ 11600 4500
+Wire Wire Line
+	11600 5500 11600 6500
+Connection ~ 11600 5500
+Wire Wire Line
+	12600 1000 12600 1500
+Wire Wire Line
+	12600 1500 12600 2500
+Connection ~ 12600 1500
+Wire Wire Line
+	12600 2500 12600 3500
+Connection ~ 12600 2500
+Wire Wire Line
+	12600 3500 12600 4500
+Connection ~ 12600 3500
+Wire Wire Line
+	12600 4500 12600 5500
+Connection ~ 12600 4500
+Wire Wire Line
+	12600 5500 12600 6500
+Connection ~ 12600 5500
+Wire Wire Line
+	13600 1000 13600 1500
+Wire Wire Line
+	13600 1500 13600 2500
+Connection ~ 13600 1500
+Wire Wire Line
+	13600 2500 13600 3500
+Connection ~ 13600 2500
+Wire Wire Line
+	13600 3500 13600 4500
+Connection ~ 13600 3500
+Wire Wire Line
+	13600 4500 13600 6500
+Connection ~ 13600 4500
+Wire Wire Line
+	14600 1000 14600 1500
+Wire Wire Line
+	14600 1500 14600 3500
+Connection ~ 14600 1500
+Wire Wire Line
+	14600 3500 14600 4500
+Connection ~ 14600 3500
+Wire Wire Line
+	14600 4500 14600 5500
+Connection ~ 14600 4500
+Wire Wire Line
+	14600 5500 14600 6500
+Connection ~ 14600 5500
+Wire Wire Line
+	15600 1000 15600 1500
+Wire Wire Line
+	15600 1500 15600 2500
+Connection ~ 15600 1500
+Wire Wire Line
+	15600 2500 15600 3500
+Connection ~ 15600 2500
+Wire Wire Line
+	15600 3500 15600 5500
+Connection ~ 15600 3500
+Wire Wire Line
+	15600 5500 15600 6500
+Connection ~ 15600 5500
+Wire Wire Line
+	16600 1000 16600 1500
+Wire Wire Line
+	16600 1500 16600 2500
+Connection ~ 16600 1500
+Connection ~ 16600 2500
+Wire Wire Line
+	16600 2500 16600 3500
+Connection ~ 16600 3500
+Wire Wire Line
+	16600 3500 16600 4500
+Wire Wire Line
+	16600 4500 16600 5500
+Connection ~ 16600 4500
+Wire Wire Line
+	16600 5500 16600 6500
+Connection ~ 16600 5500
+Text GLabel 1600 1000 0    50   Input ~ 0
+col0
+Text GLabel 2600 1000 0    50   Input ~ 0
+col1
+Text GLabel 3600 1000 0    50   Input ~ 0
+col2
+Text GLabel 4600 1000 0    50   Input ~ 0
+col3
+Text GLabel 5600 1000 0    50   Input ~ 0
+col4
+Text GLabel 6600 1000 0    50   Input ~ 0
+col5
+Text GLabel 7600 1000 0    50   Input ~ 0
+col6
+Text GLabel 8600 1000 0    50   Input ~ 0
+col7
+Text GLabel 9600 1000 0    50   Input ~ 0
+col8
+Text GLabel 10600 1000 0    50   Input ~ 0
+col9
+Text GLabel 11600 1000 0    50   Input ~ 0
+col10
+Text GLabel 12600 1000 0    50   Input ~ 0
+col11
+Text GLabel 13600 1000 0    50   Input ~ 0
+col12
+Text GLabel 14600 1000 0    50   Input ~ 0
+col13
+Text GLabel 15600 1000 0    50   Input ~ 0
+col14
+Text GLabel 16600 1000 0    50   Input ~ 0
+col15
+Wire Wire Line
+	800  1900 1000 1900
+Wire Wire Line
+	1000 1900 2000 1900
+Connection ~ 1000 1900
+Wire Wire Line
+	2000 1900 3000 1900
+Connection ~ 2000 1900
+Wire Wire Line
+	3000 1900 4000 1900
+Connection ~ 3000 1900
+Wire Wire Line
+	4000 1900 5000 1900
+Connection ~ 4000 1900
+Wire Wire Line
+	5000 1900 6000 1900
+Connection ~ 5000 1900
+Connection ~ 6000 1900
+Wire Wire Line
+	6000 1900 7000 1900
+Connection ~ 7000 1900
+Wire Wire Line
+	7000 1900 8000 1900
+Wire Wire Line
+	8000 1900 9000 1900
+Connection ~ 8000 1900
+Connection ~ 9000 1900
+Wire Wire Line
+	9000 1900 10000 1900
+Connection ~ 10000 1900
+Wire Wire Line
+	10000 1900 11000 1900
+Connection ~ 11000 1900
+Wire Wire Line
+	11000 1900 12000 1900
+Connection ~ 12000 1900
+Wire Wire Line
+	12000 1900 13000 1900
+Connection ~ 13000 1900
+Wire Wire Line
+	13000 1900 14000 1900
+Wire Wire Line
+	14000 1900 15000 1900
+Connection ~ 14000 1900
+Connection ~ 15000 1900
+Wire Wire Line
+	15000 1900 16000 1900
+Wire Wire Line
+	800  2900 1000 2900
+Connection ~ 1000 2900
+Wire Wire Line
+	1000 2900 2000 2900
+Connection ~ 2000 2900
+Wire Wire Line
+	2000 2900 3000 2900
+Connection ~ 3000 2900
+Wire Wire Line
+	3000 2900 4000 2900
+Connection ~ 4000 2900
+Wire Wire Line
+	4000 2900 5000 2900
+Connection ~ 5000 2900
+Wire Wire Line
+	5000 2900 6000 2900
+Connection ~ 6000 2900
+Wire Wire Line
+	6000 2900 7000 2900
+Connection ~ 7000 2900
+Wire Wire Line
+	7000 2900 8000 2900
+Connection ~ 8000 2900
+Wire Wire Line
+	8000 2900 9000 2900
+Connection ~ 9000 2900
+Wire Wire Line
+	9000 2900 10000 2900
+Connection ~ 10000 2900
+Wire Wire Line
+	10000 2900 11000 2900
+Connection ~ 11000 2900
+Wire Wire Line
+	11000 2900 12000 2900
+Connection ~ 12000 2900
+Wire Wire Line
+	12000 2900 13000 2900
+Wire Wire Line
+	13000 2900 15000 2900
+Connection ~ 13000 2900
+Connection ~ 15000 2900
+Wire Wire Line
+	15000 2900 16000 2900
+Wire Wire Line
+	800  3900 1000 3900
+Connection ~ 1000 3900
+Wire Wire Line
+	1000 3900 3000 3900
+Connection ~ 3000 3900
+Wire Wire Line
+	3000 3900 4000 3900
+Connection ~ 4000 3900
+Wire Wire Line
+	4000 3900 5000 3900
+Connection ~ 5000 3900
+Wire Wire Line
+	5000 3900 6000 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	6000 3900 7000 3900
+Connection ~ 7000 3900
+Wire Wire Line
+	7000 3900 8000 3900
+Connection ~ 8000 3900
+Wire Wire Line
+	8000 3900 9000 3900
+Connection ~ 9000 3900
+Wire Wire Line
+	9000 3900 10000 3900
+Connection ~ 10000 3900
+Wire Wire Line
+	10000 3900 11000 3900
+Connection ~ 11000 3900
+Wire Wire Line
+	11000 3900 12000 3900
+Connection ~ 12000 3900
+Wire Wire Line
+	12000 3900 13000 3900
+Connection ~ 13000 3900
+Wire Wire Line
+	13000 3900 14000 3900
+Connection ~ 14000 3900
+Wire Wire Line
+	14000 3900 15000 3900
+Connection ~ 15000 3900
+Wire Wire Line
+	15000 3900 16000 3900
+Wire Wire Line
+	800  4900 1000 4900
+Connection ~ 1000 4900
+Wire Wire Line
+	1000 4900 3000 4900
+Connection ~ 3000 4900
+Wire Wire Line
+	3000 4900 4000 4900
+Connection ~ 4000 4900
+Wire Wire Line
+	4000 4900 5000 4900
+Connection ~ 5000 4900
+Wire Wire Line
+	5000 4900 6000 4900
+Connection ~ 6000 4900
+Wire Wire Line
+	6000 4900 7000 4900
+Connection ~ 7000 4900
+Wire Wire Line
+	7000 4900 8000 4900
+Connection ~ 8000 4900
+Wire Wire Line
+	8000 4900 9000 4900
+Connection ~ 9000 4900
+Wire Wire Line
+	9000 4900 10000 4900
+Connection ~ 10000 4900
+Wire Wire Line
+	10000 4900 11000 4900
+Connection ~ 11000 4900
+Wire Wire Line
+	11000 4900 12000 4900
+Connection ~ 12000 4900
+Wire Wire Line
+	12000 4900 13000 4900
+Connection ~ 13000 4900
+Wire Wire Line
+	13000 4900 14000 4900
+Connection ~ 14000 4900
+Wire Wire Line
+	14000 4900 16000 4900
+Wire Wire Line
+	800  5900 2000 5900
+Connection ~ 2000 5900
+Wire Wire Line
+	2000 5900 3000 5900
+Connection ~ 3000 5900
+Wire Wire Line
+	3000 5900 4000 5900
+Connection ~ 4000 5900
+Wire Wire Line
+	4000 5900 5000 5900
+Connection ~ 5000 5900
+Wire Wire Line
+	5000 5900 6000 5900
+Connection ~ 6000 5900
+Wire Wire Line
+	6000 5900 7000 5900
+Connection ~ 7000 5900
+Wire Wire Line
+	7000 5900 8000 5900
+Connection ~ 8000 5900
+Wire Wire Line
+	8000 5900 9000 5900
+Connection ~ 9000 5900
+Wire Wire Line
+	9000 5900 10000 5900
+Connection ~ 10000 5900
+Wire Wire Line
+	10000 5900 11000 5900
+Connection ~ 11000 5900
+Wire Wire Line
+	11000 5900 12000 5900
+Connection ~ 12000 5900
+Wire Wire Line
+	12000 5900 14000 5900
+Connection ~ 14000 5900
+Wire Wire Line
+	14000 5900 15000 5900
+Connection ~ 15000 5900
+Wire Wire Line
+	15000 5900 16000 5900
+Wire Wire Line
+	800  6900 1000 6900
+Connection ~ 1000 6900
+Wire Wire Line
+	1000 6900 2000 6900
+Connection ~ 2000 6900
+Wire Wire Line
+	2000 6900 4000 6900
+Connection ~ 4000 6900
+Wire Wire Line
+	4000 6900 7000 6900
+Connection ~ 7000 6900
+Wire Wire Line
+	7000 6900 11000 6900
+Connection ~ 11000 6900
+Wire Wire Line
+	11000 6900 12000 6900
+Connection ~ 12000 6900
+Wire Wire Line
+	12000 6900 13000 6900
+Connection ~ 13000 6900
+Wire Wire Line
+	13000 6900 14000 6900
+Connection ~ 14000 6900
+Wire Wire Line
+	14000 6900 15000 6900
+Connection ~ 15000 6900
+Wire Wire Line
+	15000 6900 16000 6900
+Text GLabel 800  1900 0    50   Input ~ 0
+row0
+Text GLabel 800  2900 0    50   Input ~ 0
+row1
+Text GLabel 800  3900 0    50   Input ~ 0
+row2
+Text GLabel 800  4900 0    50   Input ~ 0
+row3
+Text GLabel 800  5900 0    50   Input ~ 0
+row4
+Text GLabel 800  6900 0    50   Input ~ 0
+row5
 $EndSCHEMATC
