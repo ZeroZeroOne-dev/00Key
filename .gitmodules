@@ -1,0 +1,15 @@
+[submodule ".\\pcb\\libs\\keyboard_parts.pretty"]
+	path = .\\pcb\\libs\\keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty.git
+[submodule ".\\pcb\\libs\\kicad_lib_tmk"]
+	path = .\\pcb\\libs\\kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk.git
+[submodule ".\\pcb\\libs\\teensy.pretty"]
+	path = .\\pcb\\libs\\teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty.git
+[submodule ".\\pcb\\libs\\teensy_library"]
+	path = .\\pcb\\libs\\teensy_library
+	url = https://github.com/XenGi/teensy_library.git
+[submodule ".\\pcb\\libs\\MX_Alps_Hybrid"]
+	path = .\\pcb\\libs\\MX_Alps_Hybrid
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git
