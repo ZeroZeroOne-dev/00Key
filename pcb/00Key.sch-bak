@@ -118,6 +118,29 @@ Text GLabel 5200 1450 2    50   Input ~ 0
 row4
 Text GLabel 5200 1550 2    50   Input ~ 0
 row5
+$Comp
+L Transistor_FET:IRLZ44N Q1
+U 1 1 5F730CB8
+P 4700 3500
+F 0 "Q1" H 4904 3546 50  0000 L CNN
+F 1 "IRLZ44N" H 4904 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4950 3425 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 4700 3500 50  0001 L CNN
+	1    4700 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 3500 0    50   Input ~ 0
+LEDPWM
+Text GLabel 3500 1350 2    50   Input ~ 0
+GND
+Text GLabel 4800 3700 3    50   Input ~ 0
+GND
+Text GLabel 4800 3300 1    50   Input ~ 0
+LEDGND
+Text GLabel 3500 1250 2    50   Input ~ 0
+5V
+Text GLabel 3500 1450 2    50   Input ~ 0
+3.3V
 $Sheet
 S 4500 1000 700  1650
 U 5F68B66F
@@ -145,5 +168,11 @@ F20 "row2" I R 5200 1250 50
 F21 "row3" I R 5200 1350 50 
 F22 "row4" I R 5200 1450 50 
 F23 "row5" I R 5200 1550 50 
+F24 "LEDGND" I R 5200 2550 50 
+F25 "5V" I R 5200 2450 50 
 $EndSheet
+Text GLabel 5200 2450 2    50   Input ~ 0
+5V
+Text GLabel 5200 2550 2    50   Input ~ 0
+LEDGND
 $EndSCHEMATC
