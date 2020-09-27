@@ -175,4 +175,23 @@ Text GLabel 5200 2450 2    50   Input ~ 0
 5V
 Text GLabel 5200 2550 2    50   Input ~ 0
 LEDGND
+$Comp
+L oled:SSD1306 OLED1
+U 1 1 5F70EDBF
+P 4750 4550
+F 0 "OLED1" V 4335 4608 50  0000 C CNN
+F 1 "SSD1306" V 4426 4608 50  0000 C CNN
+F 2 "oled:128x64OLED" H 4750 4800 50  0001 C CNN
+F 3 "" H 4750 4800 50  0001 C CNN
+	1    4750 4550
+	0    1    1    0   
+$EndComp
+Text GLabel 5100 4400 2    50   Input ~ 0
+GND
+Text GLabel 5100 4500 2    50   Input ~ 0
+3.3V
+Text GLabel 5100 4600 2    50   Input ~ 0
+OLEDSCL
+Text GLabel 5100 4700 2    50   Input ~ 0
+OLEDSDA
 $EndSCHEMATC
