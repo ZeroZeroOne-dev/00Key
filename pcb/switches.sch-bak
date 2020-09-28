@@ -2346,7 +2346,7 @@ Connection ~ 9600 5150
 Wire Wire Line
 	9600 5150 9600 6150
 Wire Wire Line
-	11600 4850 11600 6150
+	11600 4850 11600 5150
 Wire Wire Line
 	10200 5150 10600 5150
 Wire Wire Line
@@ -4506,4 +4506,9 @@ F 3 "~" H 4150 5350 50  0001 C CNN
 	1    4150 5350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11200 5150 11600 5150
+Connection ~ 11600 5150
+Wire Wire Line
+	11600 5150 11600 6150
 $EndSCHEMATC
