@@ -121,21 +121,21 @@ row5
 $Comp
 L Transistor_FET:IRLZ44N Q1
 U 1 1 5F730CB8
-P 4700 3500
-F 0 "Q1" H 4904 3546 50  0000 L CNN
-F 1 "IRLZ44N" H 4904 3455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4950 3425 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 4700 3500 50  0001 L CNN
-	1    4700 3500
+P 4700 3450
+F 0 "Q1" H 4904 3496 50  0000 L CNN
+F 1 "IRLZ44N" H 4904 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4950 3375 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 4700 3450 50  0001 L CNN
+	1    4700 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 3500 0    50   Input ~ 0
+Text GLabel 4350 3450 0    50   Input ~ 0
 LEDPWM
 Text GLabel 3500 1350 2    50   Input ~ 0
 GND
-Text GLabel 4800 3700 3    50   Input ~ 0
+Text GLabel 4800 3950 3    50   Input ~ 0
 GND
-Text GLabel 4800 3300 1    50   Input ~ 0
+Text GLabel 4800 3250 1    50   Input ~ 0
 LEDGND
 Text GLabel 3500 1250 2    50   Input ~ 0
 5V
@@ -175,23 +175,48 @@ Text GLabel 5200 2450 2    50   Input ~ 0
 5V
 Text GLabel 5200 2550 2    50   Input ~ 0
 LEDGND
+Text GLabel 5100 4650 2    50   Input ~ 0
+GND
+Text GLabel 5100 4750 2    50   Input ~ 0
+3.3V
+Text GLabel 5100 4850 2    50   Input ~ 0
+OLEDSCL
+Text GLabel 5100 4950 2    50   Input ~ 0
+OLEDSDA
+Wire Wire Line
+	4350 3450 4450 3450
+$Comp
+L Device:R R_Q1_GATE_1
+U 1 1 5F82DF3F
+P 4450 3700
+F 0 "R_Q1_GATE_1" H 4380 3746 50  0000 R CNN
+F 1 "10K" H 4380 3655 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 3700 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3450 4450 3550
+Connection ~ 4450 3450
+Wire Wire Line
+	4450 3450 4500 3450
+Wire Wire Line
+	4800 3650 4800 3850
+Wire Wire Line
+	4450 3850 4800 3850
+Connection ~ 4800 3850
+Wire Wire Line
+	4800 3850 4800 3950
 $Comp
 L oled:SSD1306 OLED1
 U 1 1 5F70EDBF
-P 4750 4550
-F 0 "OLED1" V 4335 4608 50  0000 C CNN
-F 1 "SSD1306" V 4426 4608 50  0000 C CNN
-F 2 "oled:128x64OLED" H 4750 4800 50  0001 C CNN
-F 3 "" H 4750 4800 50  0001 C CNN
-	1    4750 4550
+P 4750 4800
+F 0 "OLED1" V 4335 4858 50  0000 C CNN
+F 1 "SSD1306" V 4426 4858 50  0000 C CNN
+F 2 "oled:128x64OLED" H 4750 5050 50  0001 C CNN
+F 3 "" H 4750 5050 50  0001 C CNN
+	1    4750 4800
 	0    1    1    0   
 $EndComp
-Text GLabel 5100 4400 2    50   Input ~ 0
-GND
-Text GLabel 5100 4500 2    50   Input ~ 0
-3.3V
-Text GLabel 5100 4600 2    50   Input ~ 0
-OLEDSCL
-Text GLabel 5100 4700 2    50   Input ~ 0
-OLEDSDA
 $EndSCHEMATC
