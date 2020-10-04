@@ -580,7 +580,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784D4F)
-    (at 81.4705 60.071 90)
+    (at 78.613 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/60D27A3F)
@@ -618,7 +618,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A4B7)
-    (at 68.2625 80.137 270)
+    (at 65.024 50.3555 270)
     (path /5F68B66F/5F79D3D5)
     (attr smd)
     (fp_text reference D_LSHIFT_1 (at 9.525 0 90) (layer F.SilkS)
@@ -651,7 +651,7 @@
   )
 
   (module teensy:Teensy41 (layer F.Cu) (tedit 5ED43644) (tstamp 5F724117)
-    (at 305.816 82.677)
+    (at 302.5775 52.8955)
     (path /5F67FF94)
     (fp_text reference U1 (at 0 -10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -863,7 +863,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F7911CC)
-    (at 190.0555 56.261 90)
+    (at 187.198 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C831A)
@@ -901,7 +901,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B701)
-    (at 132.9055 52.451 90)
+    (at 130.048 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CFCD1)
@@ -939,7 +939,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B6EA)
-    (at 127.1905 56.261 90)
+    (at 124.333 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C7262)
@@ -977,7 +977,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B6D3)
-    (at 164.338 52.451 90)
+    (at 161.4805 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D080D)
@@ -1015,7 +1015,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B6BC)
-    (at 298.6405 54.356 90)
+    (at 295.783 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D5DE6)
@@ -1053,7 +1053,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B6A5)
-    (at 204.343 56.261 90)
+    (at 201.4855 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C886D)
@@ -1091,7 +1091,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784FC5)
-    (at 84.328 58.166 90)
+    (at 81.4705 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/60D27262)
@@ -1129,7 +1129,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F785004)
-    (at 87.1855 56.261 90)
+    (at 84.328 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/60D26212)
@@ -1167,7 +1167,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B660)
-    (at 172.9105 56.261 90)
+    (at 170.053 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C7F34)
@@ -1205,7 +1205,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B649)
-    (at 181.483 50.546 90)
+    (at 178.6255 75.184 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D73B9)
@@ -1243,7 +1243,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B632)
-    (at 255.778 52.451 90)
+    (at 252.9205 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D53BF)
@@ -1281,7 +1281,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B61B)
-    (at 252.9205 54.356 90)
+    (at 250.063 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CDD05)
@@ -1319,7 +1319,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B604)
-    (at 130.048 54.356 90)
+    (at 127.1905 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CB914)
@@ -1357,7 +1357,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B5ED)
-    (at 284.353 54.356 90)
+    (at 281.4955 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D5818)
@@ -1395,7 +1395,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B5D6)
-    (at 318.643 50.546 90)
+    (at 315.7855 75.184 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/61227CB9)
@@ -1433,7 +1433,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B5BF)
-    (at 272.923 52.451 90)
+    (at 270.0655 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D8D09)
@@ -1471,7 +1471,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B5A8)
-    (at 278.638 58.166 90)
+    (at 275.7805 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CA22B)
@@ -1509,7 +1509,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B591)
-    (at 241.4905 50.546 90)
+    (at 238.633 75.184 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D7BFE)
@@ -1547,7 +1547,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B57A)
-    (at 158.623 56.261 90)
+    (at 155.7655 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C7B53)
@@ -1585,7 +1585,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B563)
-    (at 270.0655 54.356 90)
+    (at 267.208 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CE302)
@@ -1623,7 +1623,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784F86)
-    (at 112.903 56.261 90)
+    (at 110.0455 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C6ABE)
@@ -1661,7 +1661,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B535)
-    (at 275.7805 60.071 90)
+    (at 272.923 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BE54B)
@@ -1699,7 +1699,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B51E)
-    (at 310.0705 56.261 90)
+    (at 307.213 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CAC85)
@@ -1737,7 +1737,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B507)
-    (at 312.928 54.356 90)
+    (at 310.0705 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CECBC)
@@ -1775,7 +1775,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B4F0)
-    (at 290.068 60.071 90)
+    (at 287.2105 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BEADB)
@@ -1813,7 +1813,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B4D9)
-    (at 250.063 56.261 90)
+    (at 247.2055 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C9888)
@@ -1851,7 +1851,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784F47)
-    (at 104.3305 54.356 90)
+    (at 101.473 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D6818)
@@ -1889,7 +1889,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B4AB)
-    (at 232.918 56.261 90)
+    (at 230.0605 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C933A)
@@ -1927,7 +1927,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F79135F)
-    (at 195.7705 52.451 90)
+    (at 192.913 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D1102)
@@ -1965,7 +1965,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B47D)
-    (at 247.2055 58.166 90)
+    (at 244.348 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C415F)
@@ -2003,7 +2003,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B466)
-    (at 210.058 52.451 90)
+    (at 207.2005 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D468E)
@@ -2041,7 +2041,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784F08)
-    (at 101.473 56.261 90)
+    (at 98.6155 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CF297)
@@ -2079,7 +2079,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B438)
-    (at 287.2105 52.451 90)
+    (at 284.353 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611DACEF)
@@ -2117,7 +2117,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784EC9)
-    (at 92.9005 52.451 90)
+    (at 90.043 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/60C902AE)
@@ -2155,7 +2155,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B40A)
-    (at 267.208 56.261 90)
+    (at 264.3505 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C9E46)
@@ -2193,7 +2193,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B3F3)
-    (at 135.763 50.546 90)
+    (at 132.9055 75.184 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D6CF1)
@@ -2231,7 +2231,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B3DC)
-    (at 235.7755 54.356 90)
+    (at 232.918 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CD88C)
@@ -2269,7 +2269,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F7954C7)
-    (at 221.488 54.356 90)
+    (at 218.6305 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CD4DF)
@@ -2307,7 +2307,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B3AE)
-    (at 207.2005 54.356 90)
+    (at 204.343 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CD07F)
@@ -2345,7 +2345,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F795472)
-    (at 218.6305 56.261 90)
+    (at 215.773 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C8EA5)
@@ -2383,7 +2383,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B380)
-    (at 307.213 58.166 90)
+    (at 304.3555 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C5340)
@@ -2421,7 +2421,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F791295)
-    (at 192.913 54.356 90)
+    (at 190.0555 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CCB79)
@@ -2459,7 +2459,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B352)
-    (at 175.768 54.356 90)
+    (at 172.9105 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CC6B3)
@@ -2497,7 +2497,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B33B)
-    (at 258.6355 50.546 90)
+    (at 255.778 75.184 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D884A)
@@ -2535,7 +2535,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F78B44B)
-    (at 161.4805 54.356 90)
+    (at 158.623 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CC2D4)
@@ -2573,7 +2573,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F7953C6)
-    (at 212.9155 60.071 90)
+    (at 210.058 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BD1DD)
@@ -2611,7 +2611,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F791414)
-    (at 198.628 60.071 90)
+    (at 195.7705 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BCC32)
@@ -2649,7 +2649,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B2DF)
-    (at 184.3405 60.071 90)
+    (at 181.483 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BC698)
@@ -2687,7 +2687,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F78B232)
-    (at 152.908 60.071 90)
+    (at 150.0505 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BBABB)
@@ -2725,7 +2725,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B2B1)
-    (at 138.6205 60.071 90)
+    (at 135.763 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BB5DC)
@@ -2763,7 +2763,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B29A)
-    (at 121.4755 60.071 90)
+    (at 118.618 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BB0F5)
@@ -2801,7 +2801,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F785043)
-    (at 107.188 60.071 90)
+    (at 104.3305 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BABA4)
@@ -2839,7 +2839,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F785082)
-    (at 95.758 60.071 90)
+    (at 92.9005 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BA6B7)
@@ -2877,7 +2877,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B255)
-    (at 261.493 60.071 90)
+    (at 258.6355 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BE0B9)
@@ -2915,7 +2915,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F79591F)
-    (at 244.348 60.071 90)
+    (at 241.4905 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BDB53)
@@ -2953,7 +2953,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F795992)
-    (at 227.203 60.071 90)
+    (at 224.3455 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BD625)
@@ -2991,7 +2991,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B1F9)
-    (at 264.3505 58.166 90)
+    (at 261.493 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C46CD)
@@ -3029,7 +3029,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B1E2)
-    (at 281.4955 56.261 90)
+    (at 278.638 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CE938)
@@ -3067,7 +3067,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B1CB)
-    (at 315.7855 52.451 90)
+    (at 312.928 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D638E)
@@ -3105,7 +3105,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B1B4)
-    (at 144.3355 56.261 90)
+    (at 141.478 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C77B7)
@@ -3143,7 +3143,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B19D)
-    (at 301.498 52.451 90)
+    (at 298.6405 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/6122777E)
@@ -3181,7 +3181,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B186)
-    (at 238.633 52.451 90)
+    (at 235.7755 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D4FB0)
@@ -3219,7 +3219,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F7963D8)
-    (at 304.3555 60.071 90)
+    (at 301.498 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BF026)
@@ -3257,7 +3257,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B158)
-    (at 147.193 54.356 90)
+    (at 144.3355 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CBE6A)
@@ -3295,7 +3295,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F795571)
-    (at 224.3455 52.451 90)
+    (at 221.488 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D4AF5)
@@ -3333,7 +3333,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784E4B)
-    (at 90.043 54.356 90)
+    (at 87.1855 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BA034)
@@ -3371,7 +3371,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F78B168)
-    (at 150.0505 52.451 90)
+    (at 147.193 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D02F6)
@@ -3409,7 +3409,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F79626E)
-    (at 295.783 56.261 90)
+    (at 292.9255 80.899 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CA758)
@@ -3447,7 +3447,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B0E5)
-    (at 292.9255 58.166 90)
+    (at 290.068 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C4B6B)
@@ -3485,7 +3485,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B0CE)
-    (at 178.6255 52.451 90)
+    (at 175.768 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611D0CC8)
@@ -3523,7 +3523,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784E8A)
-    (at 115.7605 54.356 90)
+    (at 112.903 78.994 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CB19C)
@@ -3561,7 +3561,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F79541C)
-    (at 215.773 58.166 90)
+    (at 212.9155 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C2094)
@@ -3599,7 +3599,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B089)
-    (at 201.4855 58.166 90)
+    (at 198.628 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C1C65)
@@ -3637,7 +3637,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B072)
-    (at 187.198 58.166 90)
+    (at 184.3405 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C18ED)
@@ -3675,7 +3675,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B05B)
-    (at 170.053 58.166 90)
+    (at 167.1955 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C1497)
@@ -3713,7 +3713,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B044)
-    (at 155.7655 58.166 90)
+    (at 152.908 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C0F16)
@@ -3751,7 +3751,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B02D)
-    (at 141.478 58.166 90)
+    (at 138.6205 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C0AC7)
@@ -3789,7 +3789,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73B016)
-    (at 124.333 58.166 90)
+    (at 121.4755 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C0686)
@@ -3827,7 +3827,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784DCD)
-    (at 110.0455 58.166 90)
+    (at 107.188 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C014C)
@@ -3865,7 +3865,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784E0C)
-    (at 98.6155 58.166 90)
+    (at 95.758 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BFBB4)
@@ -3903,7 +3903,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73AFD1)
-    (at 230.0605 58.166 90)
+    (at 227.203 82.804 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611C25A7)
@@ -3941,7 +3941,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F73AFBA)
-    (at 167.1955 60.071 90)
+    (at 164.338 84.709 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611BC026)
@@ -3979,7 +3979,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F784D8E)
-    (at 118.618 52.451 90)
+    (at 115.7605 77.089 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5F68B66F/611CF8B4)
@@ -4017,7 +4017,7 @@
   )
 
   (module Package_TO_SOT_THT:TO-220-3_Vertical (layer F.Cu) (tedit 5AC8BA0D) (tstamp 5F73AF8C)
-    (at 325.882 56.388)
+    (at 323.0245 81.026)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (path /5F730CB8)
@@ -4062,7 +4062,7 @@
   )
 
   (module oled:128x64OLED (layer F.Cu) (tedit 5CF23EAC) (tstamp 5F73AF72)
-    (at 62.5475 54.229)
+    (at 59.69 78.867)
     (path /5F70EDBF)
     (fp_text reference OLED1 (at 0 0.254) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7304,7 +7304,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A717)
-    (at 83.5025 76.962 270)
+    (at 80.264 47.1805 270)
     (path /5F68B66F/5F79D3DB)
     (attr smd)
     (fp_text reference D_Z_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7337,7 +7337,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A704)
-    (at 147.0025 80.137 270)
+    (at 143.764 50.3555 270)
     (path /5F68B66F/5F791E15)
     (attr smd)
     (fp_text reference D_Y_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7370,7 +7370,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A6F1)
-    (at 96.2025 76.327 270)
+    (at 92.964 46.5455 270)
     (path /5F68B66F/5F79D3E1)
     (attr smd)
     (fp_text reference D_X_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7403,7 +7403,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A6DE)
-    (at 91.1225 80.137 270)
+    (at 87.884 50.3555 270)
     (path /5F68B66F/5F791DFD)
     (attr smd)
     (fp_text reference D_W_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7436,7 +7436,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A6CB)
-    (at 124.1425 76.327 270)
+    (at 120.904 46.5455 270)
     (path /5F68B66F/5F79D3ED)
     (attr smd)
     (fp_text reference D_V_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7469,7 +7469,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A6B8)
-    (at 243.5225 78.232 270)
+    (at 240.284 48.4505 270)
     (path /5F68B66F/5F79D423)
     (attr smd)
     (fp_text reference D_UP_1 (at 8.255 0 90) (layer F.SilkS)
@@ -7502,7 +7502,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A6A5)
-    (at 159.7025 80.137 270)
+    (at 156.464 50.3555 270)
     (path /5F68B66F/5F791E1B)
     (attr smd)
     (fp_text reference D_U_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7535,7 +7535,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F7622F6)
-    (at 53.0225 82.042 270)
+    (at 49.784 52.2605 270)
     (path /5F68B66F/5F78A283)
     (attr smd)
     (fp_text reference D_TILDE_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7568,7 +7568,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F72DE28)
-    (at 55.5625 80.137 270)
+    (at 52.324 50.3555 270)
     (path /5F68B66F/5F791DEB)
     (attr smd)
     (fp_text reference D_TAB_1 (at 8.255 0 90) (layer F.SilkS)
@@ -7601,7 +7601,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A66C)
-    (at 131.7625 80.137 270)
+    (at 128.524 50.3555 270)
     (path /5F68B66F/5F791E0F)
     (attr smd)
     (fp_text reference D_T_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7634,7 +7634,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F74EA34)
-    (at 139.3825 74.422 270)
+    (at 136.144 44.6405 270)
     (path /5F68B66F/5F7A1E4B)
     (attr smd)
     (fp_text reference D_SPACE_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7667,7 +7667,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A646)
-    (at 205.4225 76.327 270)
+    (at 202.184 46.5455 270)
     (path /5F68B66F/5F79D411)
     (attr smd)
     (fp_text reference D_SLASH_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7700,7 +7700,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A633)
-    (at 202.8825 78.232 270)
+    (at 199.644 48.4505 270)
     (path /5F68B66F/5F797AD7)
     (attr smd)
     (fp_text reference D_SEMIC_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7733,7 +7733,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A620)
-    (at 93.6625 78.232 270)
+    (at 90.424 48.4505 270)
     (path /5F68B66F/5F797AA7)
     (attr smd)
     (fp_text reference D_S_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7766,7 +7766,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A60D)
-    (at 230.8225 78.232 270)
+    (at 227.584 48.4505 270)
     (path /5F68B66F/5F79D41D)
     (attr smd)
     (fp_text reference D_RSHIFT_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7799,7 +7799,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A5FA)
-    (at 261.3025 74.422 270)
+    (at 258.064 44.6405 270)
     (path /5F68B66F/5F7A1E81)
     (attr smd)
     (fp_text reference D_RIGHT_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7832,7 +7832,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F72C3C9)
-    (at 220.6625 76.327 270)
+    (at 217.424 46.5455 270)
     (path /5F68B66F/5F7A1E6F)
     (attr smd)
     (fp_text reference D_RCTRL_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7865,7 +7865,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A5D4)
-    (at 225.7425 82.042 270)
+    (at 222.504 52.2605 270)
     (path /5F68B66F/5F791E39)
     (attr smd)
     (fp_text reference D_RBRAC_1 (at 9.525 0 90) (layer F.SilkS)
@@ -7898,7 +7898,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A5C1)
-    (at 192.7225 74.422 270)
+    (at 189.484 44.6405 270)
     (path /5F68B66F/5F7A1E63)
     (attr smd)
     (fp_text reference D_RALT_1 (at 8.255 0 90) (layer F.SilkS)
@@ -7931,7 +7931,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A5AE)
-    (at 119.0625 80.137 270)
+    (at 115.824 50.3555 270)
     (path /5F68B66F/5F791E09)
     (attr smd)
     (fp_text reference D_R_1 (at 7.62 0 90) (layer F.SilkS)
@@ -7964,7 +7964,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A59B)
-    (at 218.1225 78.232 270)
+    (at 214.884 48.4505 270)
     (path /5F68B66F/5F797ADD)
     (attr smd)
     (fp_text reference D_QUOTE_1 (at 8.89 0 90) (layer F.SilkS)
@@ -7997,7 +7997,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F74D793)
-    (at 78.4225 80.137 270)
+    (at 75.184 50.3555 270)
     (path /5F68B66F/5F791DF7)
     (attr smd)
     (fp_text reference D_Q_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8030,7 +8030,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A575)
-    (at 223.2025 83.947 270)
+    (at 219.964 54.1655 270)
     (path /5F68B66F/5F76C19D)
     (attr smd)
     (fp_text reference D_PRTSC_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8063,7 +8063,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A562)
-    (at 253.6825 80.137 270)
+    (at 250.444 50.3555 270)
     (path /5F68B66F/5F791E45)
     (attr smd)
     (fp_text reference D_PGUP_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8096,7 +8096,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A54F)
-    (at 256.2225 78.232 270)
+    (at 252.984 48.4505 270)
     (path /5F68B66F/5F797AEF)
     (attr smd)
     (fp_text reference D_PGDN_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8129,7 +8129,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A53C)
-    (at 235.9025 83.947 270)
+    (at 232.664 54.1655 270)
     (path /5F68B66F/5F76C897)
     (attr smd)
     (fp_text reference D_PAUSE_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8162,7 +8162,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A529)
-    (at 200.3425 80.137 270)
+    (at 197.104 50.3555 270)
     (path /5F68B66F/5F791E2D)
     (attr smd)
     (fp_text reference D_P_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8195,7 +8195,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A516)
-    (at 70.8025 78.232 270)
+    (at 67.564 48.4505 270)
     (path /5F68B66F/5F7A1E2D)
     (attr smd)
     (fp_text reference D_OS_1 (at 8.255 0 90) (layer F.SilkS)
@@ -8228,7 +8228,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A503)
-    (at 185.1025 80.137 270)
+    (at 181.864 50.3555 270)
     (path /5F68B66F/5F791E27)
     (attr smd)
     (fp_text reference D_O_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8261,7 +8261,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A4F0)
-    (at 152.0825 76.327 270)
+    (at 148.844 46.5455 270)
     (path /5F68B66F/5F79D3F9)
     (attr smd)
     (fp_text reference D_N_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8294,7 +8294,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A4DD)
-    (at 197.8025 82.042 270)
+    (at 194.564 52.2605 270)
     (path /5F68B66F/5F78A2C5)
     (attr smd)
     (fp_text reference D_MINUS_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8327,7 +8327,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A4CA)
-    (at 164.7825 76.327 270)
+    (at 161.544 46.5455 270)
     (path /5F68B66F/5F79D3FF)
     (attr smd)
     (fp_text reference D_M_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8360,7 +8360,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A4A4)
-    (at 233.3625 76.327 270)
+    (at 230.124 46.5455 270)
     (path /5F68B66F/5F7A1E75)
     (attr smd)
     (fp_text reference D_LEFT_1 (at 8.255 0 90) (layer F.SilkS)
@@ -8393,7 +8393,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F74CE89)
-    (at 60.6425 76.327 270)
+    (at 57.404 46.5455 270)
     (path /5F68B66F/5F7A1E27)
     (attr smd)
     (fp_text reference D_LCTRL_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8426,7 +8426,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A47E)
-    (at 215.5825 80.137 270)
+    (at 212.344 50.3555 270)
     (path /5F68B66F/5F791E33)
     (attr smd)
     (fp_text reference D_LBRAC_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8459,7 +8459,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A46B)
-    (at 98.7425 74.422 270)
+    (at 95.504 44.6405 270)
     (path /5F68B66F/5F7A1E39)
     (attr smd)
     (fp_text reference D_LALT_1 (at 8.255 0 90) (layer F.SilkS)
@@ -8492,7 +8492,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A458)
-    (at 187.6425 78.232 270)
+    (at 184.404 48.4505 270)
     (path /5F68B66F/5F797AD1)
     (attr smd)
     (fp_text reference D_L_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8525,7 +8525,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F751B85)
-    (at 174.9425 78.232 270)
+    (at 171.704 48.4505 270)
     (path /5F68B66F/5F797ACB)
     (attr smd)
     (fp_text reference D_K_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8558,7 +8558,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A432)
-    (at 162.2425 78.232 270)
+    (at 159.004 48.4505 270)
     (path /5F68B66F/5F797AC5)
     (attr smd)
     (fp_text reference D_J_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8591,7 +8591,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A41F)
-    (at 172.4025 80.137 270)
+    (at 169.164 50.3555 270)
     (path /5F68B66F/5F791E21)
     (attr smd)
     (fp_text reference D_I_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8624,7 +8624,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A40C)
-    (at 251.1425 82.042 270)
+    (at 247.904 52.2605 270)
     (path /5F68B66F/5F78A2DD)
     (attr smd)
     (fp_text reference D_HOME_1 (at 8.89 0 90) (layer F.SilkS)
@@ -8657,7 +8657,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A3F9)
-    (at 149.5425 78.232 270)
+    (at 146.304 48.4505 270)
     (path /5F68B66F/5F797ABF)
     (attr smd)
     (fp_text reference D_H_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8690,7 +8690,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A3E6)
-    (at 134.3025 78.232 270)
+    (at 131.064 48.4505 270)
     (path /5F68B66F/5F797AB9)
     (attr smd)
     (fp_text reference D_G_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8723,7 +8723,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A3D3)
-    (at 207.9625 74.422 270)
+    (at 204.724 44.6405 270)
     (path /5F68B66F/5F7A1E69)
     (attr smd)
     (fp_text reference D_FN_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8756,7 +8756,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A3C0)
-    (at 121.6025 78.232 270)
+    (at 118.364 48.4505 270)
     (path /5F68B66F/5F797AB3)
     (attr smd)
     (fp_text reference D_F_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8789,7 +8789,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A3AD)
-    (at 167.3225 83.947 270)
+    (at 164.084 54.1655 270)
     (path /5F68B66F/5F76A786)
     (attr smd)
     (fp_text reference D_F9_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8822,7 +8822,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A39A)
-    (at 154.6225 83.947 270)
+    (at 151.384 54.1655 270)
     (path /5F68B66F/5F76A091)
     (attr smd)
     (fp_text reference D_F8_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8855,7 +8855,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A387)
-    (at 141.9225 83.947 270)
+    (at 138.684 54.1655 270)
     (path /5F68B66F/5F769AD2)
     (attr smd)
     (fp_text reference D_F7_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8888,7 +8888,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A374)
-    (at 126.6825 83.947 270)
+    (at 123.444 54.1655 270)
     (path /5F68B66F/5F76931F)
     (attr smd)
     (fp_text reference D_F6_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8921,7 +8921,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A361)
-    (at 113.9825 83.947 270)
+    (at 110.744 54.1655 270)
     (path /5F68B66F/5F768964)
     (attr smd)
     (fp_text reference D_F5_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8954,7 +8954,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A34E)
-    (at 101.2825 83.947 270)
+    (at 98.044 54.1655 270)
     (path /5F68B66F/5F7681C5)
     (attr smd)
     (fp_text reference D_F4_1 (at 7.62 0 90) (layer F.SilkS)
@@ -8987,7 +8987,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F789857)
-    (at 86.0425 83.947 270)
+    (at 82.804 54.1655 270)
     (path /5F68B66F/5F767BDE)
     (attr smd)
     (fp_text reference D_F3_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9020,7 +9020,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A328)
-    (at 73.3425 83.947 270)
+    (at 70.104 54.1655 270)
     (path /5F68B66F/5F7675AC)
     (attr smd)
     (fp_text reference D_F2_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9053,7 +9053,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F751B16)
-    (at 63.1825 83.947 270)
+    (at 59.944 54.1655 270)
     (path /5F68B66F/5F766CA0)
     (attr smd)
     (fp_text reference D_F1_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9086,7 +9086,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A302)
-    (at 210.5025 83.947 270)
+    (at 207.264 54.1655 270)
     (path /5F68B66F/5F76BB3E)
     (attr smd)
     (fp_text reference D_F12_1 (at 8.255 0 90) (layer F.SilkS)
@@ -9119,7 +9119,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A2EF)
-    (at 195.2625 83.947 270)
+    (at 192.024 54.1655 270)
     (path /5F68B66F/5F76B5A2)
     (attr smd)
     (fp_text reference D_F11_1 (at 8.255 0 90) (layer F.SilkS)
@@ -9152,7 +9152,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A2DC)
-    (at 180.0225 83.947 270)
+    (at 176.784 54.1655 270)
     (path /5F68B66F/5F76AE53)
     (attr smd)
     (fp_text reference D_F10_1 (at 8.255 0 90) (layer F.SilkS)
@@ -9185,7 +9185,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F751A81)
-    (at 50.4825 83.947 270)
+    (at 47.244 54.1655 270)
     (path /5F68B66F/5F761DD4)
     (attr smd)
     (fp_text reference D_ESC_1 (at 8.255 0 90) (layer F.SilkS)
@@ -9218,7 +9218,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A2B6)
-    (at 213.0425 82.042 270)
+    (at 209.804 52.2605 270)
     (path /5F68B66F/5F78A2CB)
     (attr smd)
     (fp_text reference D_EQUALS_1 (at 9.525 0 90) (layer F.SilkS)
@@ -9251,7 +9251,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A2A3)
-    (at 228.2825 80.137 270)
+    (at 225.044 50.3555 270)
     (path /5F68B66F/5F797AE3)
     (attr smd)
     (fp_text reference D_ENTER_1 (at 8.89 0 90) (layer F.SilkS)
@@ -9284,7 +9284,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A290)
-    (at 258.7625 76.327 270)
+    (at 255.524 46.5455 270)
     (path /5F68B66F/5F79D429)
     (attr smd)
     (fp_text reference D_END_1 (at 8.255 0 90) (layer F.SilkS)
@@ -9317,7 +9317,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A27D)
-    (at 106.3625 80.137 270)
+    (at 103.124 50.3555 270)
     (path /5F68B66F/5F791E03)
     (attr smd)
     (fp_text reference D_E_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9350,7 +9350,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A26A)
-    (at 246.0625 76.327 270)
+    (at 242.824 46.5455 270)
     (path /5F68B66F/5F7A1E7B)
     (attr smd)
     (fp_text reference D_DOWN_1 (at 8.89 0 90) (layer F.SilkS)
@@ -9383,7 +9383,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A257)
-    (at 190.1825 76.327 270)
+    (at 186.944 46.5455 270)
     (path /5F68B66F/5F79D40B)
     (attr smd)
     (fp_text reference D_DOT_1 (at 8.255 0 90) (layer F.SilkS)
@@ -9416,7 +9416,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A244)
-    (at 248.6025 83.947 270)
+    (at 245.364 54.1655 270)
     (path /5F68B66F/5F76CE6A)
     (attr smd)
     (fp_text reference D_DELETE_1 (at 8.89 0 90) (layer F.SilkS)
@@ -9449,7 +9449,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A231)
-    (at 108.9025 78.232 270)
+    (at 105.664 48.4505 270)
     (path /5F68B66F/5F797AAD)
     (attr smd)
     (fp_text reference D_D_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9482,7 +9482,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A21E)
-    (at 177.4825 76.327 270)
+    (at 174.244 46.5455 270)
     (path /5F68B66F/5F79D405)
     (attr smd)
     (fp_text reference D_COMMA_1 (at 9.525 0 90) (layer F.SilkS)
@@ -9515,7 +9515,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A20B)
-    (at 58.1025 78.232 270)
+    (at 54.864 48.4505 270)
     (path /5F68B66F/5F797A95)
     (attr smd)
     (fp_text reference D_CAPS_1 (at 8.89 0 90) (layer F.SilkS)
@@ -9548,7 +9548,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A1F8)
-    (at 111.4425 76.327 270)
+    (at 108.204 46.5455 270)
     (path /5F68B66F/5F79D3E7)
     (attr smd)
     (fp_text reference D_C_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9581,7 +9581,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A1E5)
-    (at 240.9825 80.137 270)
+    (at 237.744 50.3555 270)
     (path /5F68B66F/5F791E3F)
     (attr smd)
     (fp_text reference D_BSLSH_1 (at 8.89 0 90) (layer F.SilkS)
@@ -9614,7 +9614,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A1D2)
-    (at 238.4425 82.042 270)
+    (at 235.204 52.2605 270)
     (path /5F68B66F/5F78A2D7)
     (attr smd)
     (fp_text reference D_BKSPACE_1 (at 9.525 0 90) (layer F.SilkS)
@@ -9647,7 +9647,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A1BF)
-    (at 136.8425 76.327 270)
+    (at 133.604 46.5455 270)
     (path /5F68B66F/5F79D3F3)
     (attr smd)
     (fp_text reference D_B_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9680,7 +9680,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A1AC)
-    (at 80.9625 79.027 270)
+    (at 77.724 49.2455 270)
     (path /5F68B66F/5F797AA1)
     (attr smd)
     (fp_text reference D_A_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9713,7 +9713,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A199)
-    (at 169.8625 82.042 270)
+    (at 166.624 52.2605 270)
     (path /5F68B66F/5F78A2B9)
     (attr smd)
     (fp_text reference D_9_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9746,7 +9746,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A186)
-    (at 157.1625 82.042 270)
+    (at 153.924 52.2605 270)
     (path /5F68B66F/5F78A2B3)
     (attr smd)
     (fp_text reference D_8_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9779,7 +9779,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A173)
-    (at 144.4625 82.042 270)
+    (at 141.224 52.2605 270)
     (path /5F68B66F/5F78A2AD)
     (attr smd)
     (fp_text reference D_7_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9812,7 +9812,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A160)
-    (at 129.2225 82.042 270)
+    (at 125.984 52.2605 270)
     (path /5F68B66F/5F78A2A7)
     (attr smd)
     (fp_text reference D_6_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9845,7 +9845,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A14D)
-    (at 116.5225 82.042 270)
+    (at 113.284 52.2605 270)
     (path /5F68B66F/5F78A2A1)
     (attr smd)
     (fp_text reference D_5_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9878,7 +9878,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F7513D2)
-    (at 103.8225 82.042 270)
+    (at 100.584 52.2605 270)
     (path /5F68B66F/5F78A29B)
     (attr smd)
     (fp_text reference D_4_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9911,7 +9911,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F74DB04)
-    (at 88.5825 82.042 270)
+    (at 85.344 52.2605 270)
     (path /5F68B66F/5F78A295)
     (attr smd)
     (fp_text reference D_3_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9944,7 +9944,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A114)
-    (at 75.8825 82.042 270)
+    (at 72.644 52.2605 270)
     (path /5F68B66F/5F78A28F)
     (attr smd)
     (fp_text reference D_2_1 (at 7.62 0 90) (layer F.SilkS)
@@ -9977,7 +9977,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A101)
-    (at 65.7225 82.042 270)
+    (at 62.484 52.2605 270)
     (path /5F68B66F/5F78A289)
     (attr smd)
     (fp_text reference D_1_1 (at 7.62 0 90) (layer F.SilkS)
@@ -10010,7 +10010,7 @@
   )
 
   (module parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 5F73A0EE)
-    (at 182.5625 82.042 270)
+    (at 179.324 52.2605 270)
     (path /5F68B66F/5F78A2BF)
     (attr smd)
     (fp_text reference D_0_1 (at 7.62 0 90) (layer F.SilkS)
@@ -10042,12 +10042,12 @@
       (net 1 "Net-(D_0_1-Pad2)"))
   )
 
-  (gr_line (start 78.2955 50.546) (end 320.6115 50.546) (layer Dwgs.User) (width 0.15) (tstamp 5F78A0BD))
-  (gr_line (start 78.2955 52.451) (end 320.6115 52.451) (layer Dwgs.User) (width 0.15) (tstamp 5F7850B6))
-  (gr_line (start 78.2955 54.356) (end 320.6115 54.356) (layer Dwgs.User) (width 0.15) (tstamp 5F7850B0))
-  (gr_line (start 78.2955 56.261) (end 320.6115 56.261) (layer Dwgs.User) (width 0.15) (tstamp 5F7850AD))
-  (gr_line (start 78.2955 58.166) (end 320.6115 58.166) (layer Dwgs.User) (width 0.15) (tstamp 5F79594D))
-  (gr_line (start 78.2955 60.071) (end 320.7385 60.071) (layer Dwgs.User) (width 0.15) (tstamp 5F7959D8))
+  (gr_line (start 75.438 75.184) (end 317.754 75.184) (layer Dwgs.User) (width 0.15) (tstamp 5F78A0BD))
+  (gr_line (start 75.438 77.089) (end 317.754 77.089) (layer Dwgs.User) (width 0.15) (tstamp 5F7850B6))
+  (gr_line (start 75.438 78.994) (end 317.754 78.994) (layer Dwgs.User) (width 0.15) (tstamp 5F7850B0))
+  (gr_line (start 75.438 80.899) (end 317.754 80.899) (layer Dwgs.User) (width 0.15) (tstamp 5F7850AD))
+  (gr_line (start 75.438 82.804) (end 317.754 82.804) (layer Dwgs.User) (width 0.15) (tstamp 5F79594D))
+  (gr_line (start 75.438 84.709) (end 317.881 84.709) (layer Dwgs.User) (width 0.15) (tstamp 5F7959D8))
 
   (segment (start 235.9025 120.1025) (end 237.2125 121.4125) (width 0.25) (layer F.Cu) (net 93))
   (segment (start 235.9025 103.8225) (end 235.9025 120.1025) (width 0.25) (layer F.Cu) (net 93))
