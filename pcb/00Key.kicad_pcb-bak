@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 9)
     (tracks 0)
     (zones 0)
     (modules 268)
@@ -696,7 +696,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference H_PLATE_TM (at 0 -3.2) (layer Cmts.User)
+    (fp_text reference H_PLATE_TM (at 0 -3.2) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -10272,15 +10272,18 @@
       (net 1 "Net-(D_0_1-Pad2)") (solder_mask_margin -999))
   )
 
-  (gr_line (start 39.6875 40.3225) (end 39.6875 211.1375) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 39.6875 40.3225) (end 344.4875 40.3225) (layer Edge.Cuts) (width 0.15) (tstamp 5F7B1CDE))
+  (gr_line (start 43.4975 211.1375) (end 344.4875 211.1375) (layer Edge.Cuts) (width 0.15) (tstamp 5F8243D8))
+  (gr_arc (start 43.4975 207.3275) (end 39.6875 207.3275) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 340.6775 44.1325) (end 344.4875 44.1325) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 39.6875 44.1325) (end 39.6875 207.3275) (layer Edge.Cuts) (width 0.15) (tstamp 5F822B26))
+  (gr_line (start 43.4975 40.3225) (end 340.6775 40.3225) (layer Edge.Cuts) (width 0.15) (tstamp 5F822B23))
+  (gr_arc (start 43.4975 44.1325) (end 43.4975 40.3225) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_text "By 001" (at 332.6875 57.8375) (layer F.SilkS)
     (effects (font (size 2 1.5) (thickness 0.2)))
   )
   (gr_text 00Key (at 332.6875 52.8375) (layer F.SilkS) (tstamp 5F81ED43)
     (effects (font (size 4 3) (thickness 0.4)))
   )
-  (gr_line (start 344.4875 211.1375) (end 344.4875 40.3225) (layer Edge.Cuts) (width 0.15) (tstamp 5F7ABE9F))
-  (gr_line (start 39.6875 211.1375) (end 344.4875 211.1375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 344.4875 211.1375) (end 344.4875 44.1325) (layer Edge.Cuts) (width 0.15) (tstamp 5F7ABE9F))
 
 )
