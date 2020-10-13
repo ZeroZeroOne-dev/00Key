@@ -32,7 +32,13 @@ Displays current layer, backlight intensity and capslock status.
 
 ![prototype](./images/proto.jpeg)
 
+## PCB
+
+- Designed in kicad
+- Used freerouting for traces
+
+![pcbrender](./images/pcb%20render.png)
+
 ## TODO
 
-- PCB design
 - Switch and LED selection
