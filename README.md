@@ -5,9 +5,9 @@ Custom 75% Keyboard.
 ## Hardware
 
 - Teensy 4.1 development board
-- Velleman 0.96" OLED-display (I2C, SSD1306)
-- Switches TBD
-- LEDS TBD
+- SSD1306 0.96 Inch OLED Display
+- MX & Alps switch support
+- Backlight (single color)
 
 ## Firmware
 
@@ -39,6 +39,10 @@ Displays current layer, backlight intensity and capslock status.
 
 ![pcbrender](./images/pcb%20render.png)
 
-## TODO
+## PLATE
 
-- Switch and LED selection
+- Designed in FreeCAD
+- Spaced from PCB with (10mm) standoffs
+- STL files included for 3D printing in 2 parts
+
+![platerender](./images/plate%20render.png)
