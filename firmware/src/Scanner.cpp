@@ -4,8 +4,8 @@
 #include "KeyMap.h"
 #include "Actions.h"
 
-const byte rowPins[] = {33, 34};
-const byte colPins[] = {31, 32};
+const byte rowPins[] = {0, 1, 2, 3, 4, 5};
+const byte colPins[] = {23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 41, 40, 39, 38, 37, 36};
 bool statusMap[ROW_COUNT][COL_COUNT] = {{false}};
 
 void Scanner::setup()
