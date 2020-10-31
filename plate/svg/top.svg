@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="310.896mm" height="62.596000000000004mm" viewBox="0 0 310.896 62.596000000000004" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Cut001" transform="translate(3.048000,173.858000) scale(1,-1)">
+<path id="Cut001_f0000"  d="M 0.0 167.0 L 0.0 118.12 L -4.4e-16 118.12 L 0.0 167.0 L 0.0 167.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<circle cx="300.99" cy="167.0" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<path id="Cut001_f0002"  d="M 0.0 118.12 A 3.81 3.81 0 0 1 3.81 114.31L 3.809999999999999 114.31 A 3.81 3.81 0 0 0 -4.44089e-16 118.12L -4.4e-16 118.12 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<path id="Cut001_f0003"  d="M 0.0 167.0 A 3.81 3.81 0 0 0 3.81 170.81L 3.809999999999999 170.81 A 3.81 3.81 0 0 1 -4.44089e-16 167L 0.0 167.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<circle cx="300.99" cy="167.0" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<path id="Cut001_f0005"  d="M 300.99 114.31 L 3.809999999999999 114.31 L 3.809999999999999 114.31 L 300.99 114.31 L 300.99 114.31 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<path id="Cut001_f0006"  d="M 300.99 170.81 L 3.809999999999999 170.81 L 3.809999999999999 170.81 L 300.99 170.81 L 300.99 170.81 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<path id="Cut001_f0007"  d="M 304.8 118.12 A 3.81 3.81 0 0 0 300.99 114.31L 300.99 114.31 A 3.81 3.81 0 0 1 304.8 118.12L 304.8 118.12 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<path id="Cut001_f0008"  d="M 304.8 167.0 A 3.81 3.81 0 0 1 300.99 170.81L 300.99 170.81 A 3.81 3.81 0 0 0 304.8 167L 304.8 167.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<path id="Cut001_f0009"  d="M 304.8 167.0 L 304.8 118.12 L 304.8 118.12 L 304.8 167.0 L 304.8 167.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-opacity:1.0;fill-rule: evenodd "/>
+<circle cx="300.99" cy="167.0" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="300.99" cy="118.11" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="154.94" cy="118.11" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="154.94" cy="167.0" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="3.81" cy="118.11" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="3.81" cy="167.0" r="1.1" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>b'Cut001'</title>
+</g>
+</svg>
