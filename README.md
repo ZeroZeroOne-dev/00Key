@@ -30,14 +30,16 @@ Displays current layer, backlight intensity and capslock status.
 - 2 backlight LED
 - OLED display
 
-![prototype](./images/proto.jpeg)
+![prototype](./images/2.jpeg)
 
 ## PCB
 
 - Designed in kicad
 - Used freerouting for traces
 
-![pcbrender](./images/pcb%20render.png)
+![pcbrender](./images/3.png)
+
+![pcb](./images/4.jpeg)
 
 ## PLATE
 
@@ -45,4 +47,8 @@ Displays current layer, backlight intensity and capslock status.
 - Spaced from PCB with (10mm) standoffs
 - STL files included for 3D printing in 2 parts
 
-![platerender](./images/plate%20render.png)
+![platerender](./images/8.png)
+
+## FINISHED PRODUCT
+
+![00Key](./images/build/DSCF2616.JPG)
