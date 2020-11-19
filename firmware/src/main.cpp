@@ -16,5 +16,6 @@ void setup()
 void loop()
 {
   Scanner::loop();
+  OLED::loop();
   delay(SCAN_DELAY);
 }

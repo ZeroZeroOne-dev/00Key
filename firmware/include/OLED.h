@@ -5,6 +5,7 @@ class OLED
 {
 public:
     static void setup();
+    static void loop();
     static void setLayer(int layer);
     static void setBacklight(int percentage);
     static void toggleCaps();
