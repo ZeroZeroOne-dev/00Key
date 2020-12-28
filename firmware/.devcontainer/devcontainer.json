@@ -1,0 +1,29 @@
+{
+	"name": "PlatformIO in Devcontainer",
+	"dockerFile": "Dockerfile",
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": ["ms-vscode.cpptools", "platformio.platformio-ide", "eamodio.gitlens"],
+
+	"forwardPorts": [
+		// PIO Home is blank if its port isn't exosed from within the container.
+		8008
+	],
+
+	"runArgs": [
+		// --privileged grants access to /dev on host. Arduino will most likely be /dev/ttysN
+		"--privileged"
+	],
+
+	"remoteUser": "vscode",
+
+	"mounts": [
+		// Mount the host's device to this container's.
+		"source=/dev,target=/dev,type=bind,consistency=consistent"
+	]
+}
