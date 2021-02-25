@@ -3,14 +3,15 @@
 #include "OLED.h"
 
 const byte ledPin = 28;
-const byte step = 51;
-byte currentLevel = 255;
+const byte step = 25;
+byte currentLevel = 125;
+byte maxLevel = 125;
 
 void writeCurrent()
 {
     analogWrite(ledPin, currentLevel);
 
-    int percentage = (double)currentLevel / 255 * 100;
+    int percentage = (double)currentLevel / maxLevel * 100;
 
     OLED::setBacklight(percentage);
 }
@@ -23,7 +24,7 @@ void Backlight::setup()
 
 void Backlight::up()
 {
-    if (currentLevel < 255)
+    if (currentLevel < maxLevel)
     {
         currentLevel += step;
     }
