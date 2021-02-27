@@ -5,27 +5,39 @@
 #include "Backlight.h"
 #include "OLED.h"
 
-bool toggleCaps()
+bool toggleCaps(KeyDirection direction)
 {
-    OLED::toggleCaps();
+    if (direction == DOWN)
+    {
+        OLED::toggleCaps();
+    }
+
     return true;
 }
 
-bool moveLayer()
+bool moveLayer(KeyDirection direction)
 {
     KeyMap::moveLayer();
     return false;
 }
 
-bool backlightUp()
+bool backlightUp(KeyDirection direction)
 {
-    Backlight::up();
+    if (direction == DOWN)
+    {
+        Backlight::up();
+    }
+
     return false;
 }
 
-bool backlightDown()
+bool backlightDown(KeyDirection direction)
 {
-    Backlight::down();
+    if (direction == DOWN)
+    {
+        Backlight::down();
+    }
+
     return false;
 }
 

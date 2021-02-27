@@ -30,8 +30,9 @@ void pressKey(byte row, byte col)
 
     statusMap[row][col] = true;
     auto key = KeyMap::getKey(row, col);
+
     auto action = Actions::getAction(key);
-    if (action == NULL || action())
+    if (action == NULL || action(DOWN))
     {
         Keyboard.press(key);
     }
@@ -44,9 +45,14 @@ void releaseKey(byte row, byte col)
         return;
     }
 
-    auto key = KeyMap::getKey(row, col);
     statusMap[row][col] = false;
-    Keyboard.release(key);
+    auto key = KeyMap::getKey(row, col);
+
+    auto action = Actions::getAction(key);
+    if (action == NULL || action(UP))
+    {
+        Keyboard.release(key);
+    }
 }
 
 void Scanner::loop()

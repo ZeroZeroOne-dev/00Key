@@ -11,4 +11,9 @@
 #define KEY_00KEY_BLUP 1001
 #define KEY_00KEY_BLDOWN 1002
 
+enum KeyDirection {
+    DOWN,
+    UP
+};
+
 #endif
