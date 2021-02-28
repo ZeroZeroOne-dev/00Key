@@ -20,9 +20,7 @@ void Underglow::loop()
 {
     for (size_t i = 0; i < NUM_LEDS; i++)
     {
-        leds[i].red = 128;
-        leds[i].green = 0;
-        leds[i].blue = 255;
+        leds[i].setRGB(128, 0, 255);
     }
 
     FastLED.show();

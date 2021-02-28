@@ -10,6 +10,7 @@ int _layer = 0;
 int _blPercentage = 0;
 bool _capsOn = false;
 bool _splashScreenFinished = false;
+int _splashScreenDuration = 3000;
 
 // clang-format off
 
@@ -142,7 +143,7 @@ void OLED::setup()
 
 void OLED::loop()
 {
-	if (!_splashScreenFinished && millis() > 3000)
+	if (!_splashScreenFinished && millis() > _splashScreenDuration)
 	{
 		clearSplashScreen();
 	}
