@@ -197,3 +197,11 @@ void OLED::toggleCaps()
 	_capsOn = !_capsOn;
 	draw();
 }
+
+void OLED::setUnderglow(int red, int green, int blue)
+{
+	_rValue = red;
+	_gValue = green;
+	_bValue = blue;
+	draw();
+}
