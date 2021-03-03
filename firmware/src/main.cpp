@@ -5,10 +5,12 @@
 #include "Backlight.h"
 #include "Underglow.h"
 #include "Scanner.h"
+// #include "Storage.h"
 
 void setup()
 {
-  Serial.begin(115200);
+  // Serial.begin(9600);
+  // Storage::setup();
   OLED::setup();
   Backlight::setup();
   Underglow::setup();

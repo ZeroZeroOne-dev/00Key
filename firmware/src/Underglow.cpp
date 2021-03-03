@@ -4,6 +4,7 @@
 #include <FastLED.h>
 #include "Underglow.h"
 #include "OLED.h"
+// #include "Storage.h"
 
 #define DATA_PIN 35
 #define NUM_LEDS 16
@@ -19,6 +20,10 @@ void Underglow::setup()
 {
     FastLED.addLeds<WS2812SERIAL, DATA_PIN, COLOR_ORDER>(leds, NUM_LEDS);
     FastLED.setMaxPowerInVoltsAndMilliamps(5, 380);
+
+    // _red = Storage::getIntOrDefault("UNDER:RED", 128);
+    // _green = Storage::getIntOrDefault("UNDER:GREEN", 0);
+    // _blue = Storage::getIntOrDefault("UNDER:BLUE", 255);
 }
 
 void Underglow::loop()
@@ -29,6 +34,13 @@ void Underglow::loop()
     }
 
     FastLED.show();
+}
+
+void store()
+{
+    // Storage::setInt("UNDER:RED", _red);
+    // Storage::setInt("UNDER:GREEN", _green);
+    // Storage::setInt("UNDER:BLUE", _blue);
 }
 
 void Underglow::add(int red, int green, int blue)
@@ -47,6 +59,7 @@ void Underglow::add(int red, int green, int blue)
     _green += green;
     _blue += blue;
     OLED::setUnderglow(_red, _green, _blue);
+    store();
 }
 
 void Underglow::set(int red, int green, int blue)
@@ -55,4 +68,5 @@ void Underglow::set(int red, int green, int blue)
     _green = green;
     _blue = blue;
     OLED::setUnderglow(_red, _green, _blue);
+    store();
 }
