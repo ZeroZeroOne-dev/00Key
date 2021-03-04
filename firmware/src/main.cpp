@@ -5,10 +5,11 @@
 #include "Backlight.h"
 #include "Underglow.h"
 #include "Scanner.h"
+#include "Storage.h"
+#include "Actions.h"
 
 void setup()
 {
-  Serial.begin(115200);
   OLED::setup();
   Backlight::setup();
   Underglow::setup();
@@ -18,6 +19,7 @@ void setup()
 void loop()
 {
   Scanner::loop();
+  Actions::loop();
   OLED::loop();
   Underglow::loop();
   delay(SCAN_DELAY);

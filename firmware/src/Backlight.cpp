@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "Backlight.h"
 #include "OLED.h"
+#include "Storage.h"
 
 const byte ledPin = 28;
 const byte step = 25;
@@ -14,10 +15,13 @@ void writeCurrent()
     int percentage = (double)currentLevel / maxLevel * 100;
 
     OLED::setBacklight(percentage);
+    Storage::set(StorageLocations::BL, currentLevel);
 }
 
 void Backlight::setup()
 {
+    currentLevel = Storage::get(StorageLocations::BL);
+
     pinMode(ledPin, OUTPUT);
     writeCurrent();
 }

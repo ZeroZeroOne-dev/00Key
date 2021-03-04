@@ -11,6 +11,7 @@ class Actions
 {
 public:
     static action getAction(int key);
+    static void loop();
 
 private:
     static const std::map<int, action> actionMap;

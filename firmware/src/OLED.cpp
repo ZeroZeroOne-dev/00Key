@@ -6,9 +6,14 @@
 #include "OLED.h"
 
 Adafruit_SSD1306 display(128, 64, &Wire2, -1);
+
+bool _capsOn = false;
 int _layer = 0;
 int _blPercentage = 0;
-bool _capsOn = false;
+int _rValue = 0;
+int _gValue = 0;
+int _bValue = 0;
+
 bool _splashScreenFinished = false;
 int _splashScreenDuration = 3000;
 
@@ -92,26 +97,52 @@ void draw()
 
 	display.clearDisplay();
 
+	//Logo
 	display.setFont(&FreeSansBold9pt7b);
-	display.setCursor(0, 12);
+	display.setCursor(25, 12);
 	display.print("00Key v1");
-	display.drawLine(0, 15, 75, 15, WHITE);
 
+	//Layer and box
 	display.setFont(&FreeSans9pt7b);
-	display.setCursor(0, 36);
-	display.print("Layer: ");
+	display.setCursor(3, 36);
+	display.print("L: ");
 	display.print(_layer);
+	display.drawRect(0, 20, 36, 22, WHITE);
 
-	display.setCursor(0, 59);
-	display.print("Light: ");
-	display.print(_blPercentage);
+	//Backlight and box
+	display.setCursor(39, 36);
+	display.print("B: ");
+	display.printf("%03d", _blPercentage);
+	display.drawRect(35, 20, 60, 22, WHITE);
 
+	//CapsLock and box
+	display.drawRect(94, 20, 34, 22, WHITE);
 	if (_capsOn)
 	{
-		display.setCursor(114, 14);
+		display.setCursor(105, 36);
 		display.print("A");
-		display.drawRect(111, 0, 17, 17, WHITE);
+		display.drawRect(102, 22, 18, 17, WHITE);
 	}
+	else
+	{
+		display.setCursor(106, 35);
+		display.print("a");
+	}
+
+	//Red value and box
+	display.drawRect(0, 41, 43, 22, WHITE);
+	display.setCursor(6, 58);
+	display.printf("%03d", _rValue);
+
+	//Green value and box
+	display.drawRect(42, 41, 44, 22, WHITE);
+	display.setCursor(49, 58);
+	display.printf("%03d", _gValue);
+
+	//Blue value and box
+	display.drawRect(85, 41, 43, 22, WHITE);
+	display.setCursor(91, 58);
+	display.printf("%03d", _bValue);
 
 	display.display();
 }
@@ -164,5 +195,13 @@ void OLED::setBacklight(int percentage)
 void OLED::toggleCaps()
 {
 	_capsOn = !_capsOn;
+	draw();
+}
+
+void OLED::setUnderglow(int red, int green, int blue)
+{
+	_rValue = red;
+	_gValue = green;
+	_bValue = blue;
 	draw();
 }

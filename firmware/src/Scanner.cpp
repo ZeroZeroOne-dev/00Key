@@ -32,7 +32,7 @@ void pressKey(byte row, byte col)
     auto key = KeyMap::getKey(row, col);
 
     auto action = Actions::getAction(key);
-    if (action == NULL || action(DOWN))
+    if (action == NULL || action(KeyDirection::DOWN))
     {
         Keyboard.press(key);
     }
@@ -49,7 +49,7 @@ void releaseKey(byte row, byte col)
     auto key = KeyMap::getKey(row, col);
 
     auto action = Actions::getAction(key);
-    if (action == NULL || action(UP))
+    if (action == NULL || action(KeyDirection::UP))
     {
         Keyboard.release(key);
     }

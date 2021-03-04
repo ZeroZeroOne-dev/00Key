@@ -11,7 +11,15 @@
 #define KEY_00KEY_BLUP 1001
 #define KEY_00KEY_BLDOWN 1002
 
-enum KeyDirection {
+#define KEY_RED_UP 1003
+#define KEY_RED_DOWN 1004
+#define KEY_GREEN_UP 1005
+#define KEY_GREEN_DOWN 1006
+#define KEY_BLUE_UP 1007
+#define KEY_BLUE_DOWN 1008
+
+
+enum class KeyDirection {
     DOWN,
     UP
 };
