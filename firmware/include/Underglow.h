@@ -1,7 +1,7 @@
 #ifndef Underglow_h
 #define Underglow_h
 
-enum RGBColor
+enum class RGBColor: int
 {
     RED,
     GREEN,

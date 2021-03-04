@@ -3,18 +3,20 @@
 
 #include <Arduino.h>
 
+enum class StorageLocations {
+    BL = 1001,
+    RED = 1002,
+    GREEN = 1003,
+    BLUE = 1004
+};
+
 class Storage
 {
 public:
     static void setup();
 
-    static String get(String key);
-    static String getOrDefault(String key, String defaultValue);
-    static void set(String key, String value);
-
-    static int getInt(String key);
-    static int getIntOrDefault(String key, int defaultValue);
-    static void setInt(String key, int value);
+    static int get(StorageLocations location);
+    static void set(StorageLocations location, int value);
 };
 
 #endif

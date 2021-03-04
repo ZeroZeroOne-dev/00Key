@@ -6,13 +6,13 @@
 #include "OLED.h"
 
 Adafruit_SSD1306 display(128, 64, &Wire2, -1);
+
+bool _capsOn = false;
 int _layer = 0;
 int _blPercentage = 0;
-bool _capsOn = false;
-
-int _rValue = 128;
+int _rValue = 0;
 int _gValue = 0;
-int _bValue = 255;
+int _bValue = 0;
 
 bool _splashScreenFinished = false;
 int _splashScreenDuration = 3000;
