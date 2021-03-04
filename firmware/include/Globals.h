@@ -19,7 +19,7 @@
 #define KEY_BLUE_DOWN 1008
 
 
-enum KeyDirection {
+enum class KeyDirection {
     DOWN,
     UP
 };

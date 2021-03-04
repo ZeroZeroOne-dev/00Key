@@ -8,7 +8,7 @@
 
 bool toggleCaps(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         OLED::toggleCaps();
     }
@@ -26,7 +26,7 @@ bool moveLayer(KeyDirection direction)
 
 bool backlightUp(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Backlight::up();
     }
@@ -36,7 +36,7 @@ bool backlightUp(KeyDirection direction)
 
 bool backlightDown(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Backlight::down();
     }
@@ -50,7 +50,7 @@ bool backlightDown(KeyDirection direction)
 
 bool redDown(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Underglow::add(-1, 0, 0);
     }
@@ -60,7 +60,7 @@ bool redDown(KeyDirection direction)
 
 bool redUp(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Underglow::add(1, 0, 0);
     }
@@ -70,7 +70,7 @@ bool redUp(KeyDirection direction)
 
 bool greenDown(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Underglow::add(0, -1, 0);
     }
@@ -80,7 +80,7 @@ bool greenDown(KeyDirection direction)
 
 bool greenUp(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Underglow::add(0, 1, 0);
     }
@@ -90,7 +90,7 @@ bool greenUp(KeyDirection direction)
 
 bool blueDown(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Underglow::add(0, 0, -1);
     }
@@ -100,7 +100,7 @@ bool blueDown(KeyDirection direction)
 
 bool blueUp(KeyDirection direction)
 {
-    if (direction == DOWN)
+    if (direction == KeyDirection::DOWN)
     {
         Underglow::add(0, 0, 1);
     }
@@ -122,7 +122,7 @@ const std::map<int, action> Actions::actionMap = {
     {KEY_GREEN_DOWN, greenDown},
     {KEY_GREEN_UP, greenUp},
     {KEY_BLUE_DOWN, blueDown},
-    {KEY_BLUE_DOWN, blueUp}
+    {KEY_BLUE_UP, blueUp}
 };
 
 // clang-format on
