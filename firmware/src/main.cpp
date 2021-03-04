@@ -6,6 +6,7 @@
 #include "Underglow.h"
 #include "Scanner.h"
 #include "Storage.h"
+#include "Actions.h"
 
 void setup()
 {
@@ -18,6 +19,7 @@ void setup()
 void loop()
 {
   Scanner::loop();
+  Actions::loop();
   OLED::loop();
   Underglow::loop();
   delay(SCAN_DELAY);

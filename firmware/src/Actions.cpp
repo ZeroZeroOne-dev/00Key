@@ -6,22 +6,6 @@
 #include "OLED.h"
 #include "Underglow.h"
 
-bool toggleCaps(KeyDirection direction)
-{
-    if (direction == KeyDirection::DOWN)
-    {
-        OLED::toggleCaps();
-    }
-
-    return true;
-}
-
-bool moveLayer(KeyDirection direction)
-{
-    KeyMap::moveLayer();
-    return false;
-}
-
 #pragma region backlight
 
 bool backlightUp(KeyDirection direction)
@@ -48,11 +32,38 @@ bool backlightDown(KeyDirection direction)
 
 #pragma region underglow
 
+int rgbSetStart = 0;
+int rDelta = 0;
+int gDelta = 0;
+int bDelta = 0;
+int timeDelta = 1000;
+
+void startRgbChange(int r, int g, int b)
+{
+    rgbSetStart = millis();
+    Underglow::add(r, g, b);
+    timeDelta = 1000;
+    rDelta = r;
+    gDelta = g;
+    bDelta = b;
+}
+
+void stopRgbChange()
+{
+    rDelta = 0;
+    gDelta = 0;
+    bDelta = 0;
+}
+
 bool redDown(KeyDirection direction)
 {
     if (direction == KeyDirection::DOWN)
     {
-        Underglow::add(-1, 0, 0);
+        startRgbChange(-1, 0, 0);
+    }
+    else
+    {
+        stopRgbChange();
     }
 
     return false;
@@ -62,7 +73,11 @@ bool redUp(KeyDirection direction)
 {
     if (direction == KeyDirection::DOWN)
     {
-        Underglow::add(1, 0, 0);
+        startRgbChange(1, 0, 0);
+    }
+    else
+    {
+        stopRgbChange();
     }
 
     return false;
@@ -72,7 +87,11 @@ bool greenDown(KeyDirection direction)
 {
     if (direction == KeyDirection::DOWN)
     {
-        Underglow::add(0, -1, 0);
+        startRgbChange(0, -1, 0);
+    }
+    else
+    {
+        stopRgbChange();
     }
 
     return false;
@@ -82,7 +101,11 @@ bool greenUp(KeyDirection direction)
 {
     if (direction == KeyDirection::DOWN)
     {
-        Underglow::add(0, 1, 0);
+        startRgbChange(0, 1, 0);
+    }
+    else
+    {
+        stopRgbChange();
     }
 
     return false;
@@ -92,7 +115,11 @@ bool blueDown(KeyDirection direction)
 {
     if (direction == KeyDirection::DOWN)
     {
-        Underglow::add(0, 0, -1);
+        startRgbChange(0, 0, -1);
+    }
+    else
+    {
+        stopRgbChange();
     }
 
     return false;
@@ -102,13 +129,46 @@ bool blueUp(KeyDirection direction)
 {
     if (direction == KeyDirection::DOWN)
     {
-        Underglow::add(0, 0, 1);
+        startRgbChange(0, 0, 1);
+    }
+    else
+    {
+        stopRgbChange();
     }
 
     return false;
 }
 
+void rgbLoop()
+{
+    if ((rDelta != 0 || gDelta != 0 || bDelta != 0) && (millis() - rgbSetStart > timeDelta))
+    {
+        Underglow::add(rDelta, gDelta, bDelta);
+        rgbSetStart = millis();
+        if (timeDelta == 1000)
+        {
+            timeDelta = 20;
+        }
+    }
+}
+
 #pragma endregion
+
+bool toggleCaps(KeyDirection direction)
+{
+    if (direction == KeyDirection::DOWN)
+    {
+        OLED::toggleCaps();
+    }
+
+    return true;
+}
+
+bool moveLayer(KeyDirection direction)
+{
+    KeyMap::moveLayer();
+    return false;
+}
 
 // clang-format off
 
@@ -136,3 +196,8 @@ action Actions::getAction(int key)
 
     return NULL;
 };
+
+void Actions::loop()
+{
+    rgbLoop();
+}

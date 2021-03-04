@@ -16,6 +16,17 @@ int _red = 0;
 int _green = 0;
 int _blue = 0;
 
+int shouldStore = false;
+int storeStart = 0;
+int storeAfter = 3000;
+
+void store()
+{
+    Storage::set(StorageLocations::RED, _red);
+    Storage::set(StorageLocations::GREEN, _green);
+    Storage::set(StorageLocations::BLUE, _blue);
+}
+
 void Underglow::setup()
 {
     FastLED.addLeds<WS2812SERIAL, DATA_PIN, COLOR_ORDER>(leds, NUM_LEDS);
@@ -35,32 +46,32 @@ void Underglow::loop()
     }
 
     FastLED.show();
+
+    if(shouldStore && millis() - storeStart > storeAfter)
+    {
+        store();
+        shouldStore = false;
+    }
 }
 
-void store()
-{
-    Storage::set(StorageLocations::RED, _red);
-    Storage::set(StorageLocations::GREEN, _green);
-    Storage::set(StorageLocations::BLUE, _blue);
-}
 
 void Underglow::add(int red, int green, int blue)
 {
-    if (_red + red > 255 || _green + green > 255 || _blue + blue > 255)
+    auto newRed = _red + red;
+    auto newGreen = _green + green;
+    auto newBlue = _blue + blue;
+
+    if (newRed > 255 || newGreen > 255 || newBlue > 255)
     {
         return;
     }
 
-    if (_red + red < 0 || _green + green < 0 || _blue + blue < 0)
+    if (newRed < 0 || newGreen < 0 || newBlue < 0)
     {
         return;
     }
 
-    _red += red;
-    _green += green;
-    _blue += blue;
-    OLED::setUnderglow(_red, _green, _blue);
-    store();
+    Underglow::set(newRed, newGreen, newBlue);
 }
 
 void Underglow::set(int red, int green, int blue)
@@ -69,5 +80,7 @@ void Underglow::set(int red, int green, int blue)
     _green = green;
     _blue = blue;
     OLED::setUnderglow(_red, _green, _blue);
-    store();
+
+    shouldStore = true;
+    storeStart = millis();
 }
