@@ -15,20 +15,10 @@ func main() {
 	cad.Hash = "00Key"
 	cad.Case.Type = "sandwich"
 
-	cad.SwitchType = 3
-	cad.StabType = 1
-
-	cad.Case.Holes = 10
-	cad.Case.HoleDiameter = 3
-
-	cad.Case.EdgeWidth = 6
-	cad.TopPad = 64
-	cad.RightPad = 6
-	cad.BottomPad = 6
-	cad.LeftPad = 6
-
-	cad.Fillet = 2
-	cad.Case.UsbWidth = 0
+	setupComponents(cad)
+	setupBase(cad)
+	setupHoles(cad)
+	setupUsb(cad)
 
 	//layout stuff
 	jsonLayout, err := ioutil.ReadFile("layout.json")
@@ -45,4 +35,30 @@ func main() {
 	if err != nil {
 		log.Fatalf("Failed to Draw the KAD file\nError: %s", err.Error())
 	}
+}
+
+func setupComponents(cad *kad.KAD) {
+	cad.SwitchType = 3
+	cad.StabType = 1
+}
+
+func setupBase(cad *kad.KAD) {
+	cad.Case.EdgeWidth = 7
+	cad.TopPad = 63.51
+	cad.RightPad = 7
+	cad.BottomPad = 7
+	cad.LeftPad = 7
+	cad.Fillet = 3.81
+}
+
+func setupHoles(cad *kad.KAD) {
+	cad.Case.Holes = 10
+	cad.Case.HoleDiameter = 3.4
+}
+
+func setupUsb(cad *kad.KAD) {
+	cad.Case.UsbWidth = 0
+	cad.CustomPolygons = []kad.CustomPolygon{{
+		Layers: []string{""},
+	}}
 }
