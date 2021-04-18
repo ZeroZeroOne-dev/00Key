@@ -7,7 +7,8 @@ enum class StorageLocations {
     BL = 1001,
     RED = 1002,
     GREEN = 1003,
-    BLUE = 1004
+    BLUE = 1004,
+    EFFECT = 1005
 };
 
 class Storage

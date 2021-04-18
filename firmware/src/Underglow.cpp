@@ -3,8 +3,10 @@
 
 #include <FastLED.h>
 #include "Underglow.h"
-#include "OLED.h"
 #include "Storage.h"
+#include "Effects/BaseEffect.h"
+#include "Effects/StaticEffect.h"
+#include "Effects/RainbowEffect.h"
 
 #define DATA_PIN 35
 #define NUM_LEDS 16
@@ -12,75 +14,38 @@
 
 CRGB leds[NUM_LEDS];
 
-int _red = 0;
-int _green = 0;
-int _blue = 0;
-
-int shouldStore = false;
-int storeStart = 0;
-int storeAfter = 3000;
-
-void store()
-{
-    Storage::set(StorageLocations::RED, _red);
-    Storage::set(StorageLocations::GREEN, _green);
-    Storage::set(StorageLocations::BLUE, _blue);
-}
+BaseEffect *effects[] = {
+    new StaticEffect(leds, NUM_LEDS),
+    new RainbowEffect(leds, NUM_LEDS)
+};
+int currentEffectIndex = 0;
+BaseEffect *currentEffect;
 
 void Underglow::setup()
 {
-    FastLED.addLeds<WS2812SERIAL, DATA_PIN, COLOR_ORDER>(leds, NUM_LEDS);
+    FastLED.addLeds<WS2812SERIAL, DATA_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
     FastLED.setMaxPowerInVoltsAndMilliamps(5, 380);
 
-    _red = Storage::get(StorageLocations::RED);
-    _green = Storage::get(StorageLocations::GREEN);
-    _blue = Storage::get(StorageLocations::BLUE);
-    OLED::setUnderglow(_red, _green, _blue);
+    for(BaseEffect* effect : effects)
+    {
+        effect->setup();
+    }
+    
+    currentEffectIndex = Storage::get(StorageLocations::EFFECT);
+    currentEffect = effects[currentEffectIndex];
 }
 
 void Underglow::loop()
 {
-    for (size_t i = 0; i < NUM_LEDS; i++)
-    {
-        leds[i].setRGB(_red, _green, _blue);
-    }
-
+    currentEffect->loop();
     FastLED.show();
-
-    if(shouldStore && millis() - storeStart > storeAfter)
-    {
-        store();
-        shouldStore = false;
-    }
 }
 
-
-void Underglow::add(int red, int green, int blue)
-{
-    auto newRed = _red + red;
-    auto newGreen = _green + green;
-    auto newBlue = _blue + blue;
-
-    if (newRed > 255 || newGreen > 255 || newBlue > 255)
-    {
-        return;
+void Underglow::nextEffect(){
+    currentEffectIndex++;
+    if(currentEffectIndex > 1){
+        currentEffectIndex = 0;
     }
-
-    if (newRed < 0 || newGreen < 0 || newBlue < 0)
-    {
-        return;
-    }
-
-    Underglow::set(newRed, newGreen, newBlue);
-}
-
-void Underglow::set(int red, int green, int blue)
-{
-    _red = red;
-    _green = green;
-    _blue = blue;
-    OLED::setUnderglow(_red, _green, _blue);
-
-    shouldStore = true;
-    storeStart = millis();
+    Storage::set(StorageLocations::EFFECT, currentEffectIndex);
+    currentEffect = effects[currentEffectIndex];
 }

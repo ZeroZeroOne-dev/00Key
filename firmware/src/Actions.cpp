@@ -5,6 +5,7 @@
 #include "Backlight.h"
 #include "OLED.h"
 #include "Underglow.h"
+#include "Effects/StaticEffect.h"
 
 #pragma region backlight
 
@@ -41,7 +42,7 @@ int timeDelta = 1000;
 void startRgbChange(int r, int g, int b)
 {
     rgbSetStart = millis();
-    Underglow::add(r, g, b);
+    StaticEffect::add(r, g, b);
     timeDelta = 1000;
     rDelta = r;
     gDelta = g;
@@ -143,13 +144,22 @@ void rgbLoop()
 {
     if ((rDelta != 0 || gDelta != 0 || bDelta != 0) && (millis() - rgbSetStart > timeDelta))
     {
-        Underglow::add(rDelta, gDelta, bDelta);
+        StaticEffect::add(rDelta, gDelta, bDelta);
         rgbSetStart = millis();
         if (timeDelta == 1000)
         {
             timeDelta = 20;
         }
     }
+}
+
+bool nextEffect(KeyDirection direction){
+    if(direction == KeyDirection::DOWN)
+    {
+        Underglow::nextEffect();
+    }
+
+    return false;
 }
 
 #pragma endregion
@@ -177,12 +187,13 @@ const std::map<int, action> Actions::actionMap = {
     {KEY_00KEY_BLUP, backlightUp},
     {KEY_00KEY_BLDOWN, backlightDown},
     {KEY_CAPS_LOCK, toggleCaps},
-    {KEY_RED_DOWN, redDown},
-    {KEY_RED_UP, redUp},
-    {KEY_GREEN_DOWN, greenDown},
-    {KEY_GREEN_UP, greenUp},
-    {KEY_BLUE_DOWN, blueDown},
-    {KEY_BLUE_UP, blueUp}
+    {KEY_00KEY_RED_DOWN, redDown},
+    {KEY_00KEY_RED_UP, redUp},
+    {KEY_00KEY_GREEN_DOWN, greenDown},
+    {KEY_00KEY_GREEN_UP, greenUp},
+    {KEY_00KEY_BLUE_DOWN, blueDown},
+    {KEY_00KEY_BLUE_UP, blueUp},
+    {KEY_00KEY_NEXT_EFFECT, nextEffect}
 };
 
 // clang-format on
