@@ -7,6 +7,7 @@
 #include "Effects/BaseEffect.h"
 #include "Effects/StaticEffect.h"
 #include "Effects/RainbowEffect.h"
+#include "Effects/NoEffect.h"
 
 #define DATA_PIN 35
 #define NUM_LEDS 16
@@ -16,7 +17,8 @@ CRGB leds[NUM_LEDS];
 
 BaseEffect *effects[] = {
     new StaticEffect(leds, NUM_LEDS),
-    new RainbowEffect(leds, NUM_LEDS)
+    new RainbowEffect(leds, NUM_LEDS),
+    new NoEffect(leds, NUM_LEDS)
 };
 int currentEffectIndex = 0;
 BaseEffect *currentEffect;
@@ -43,9 +45,13 @@ void Underglow::loop()
 
 void Underglow::nextEffect(){
     currentEffectIndex++;
-    if(currentEffectIndex > 1){
+    if(currentEffectIndex > 2){
         currentEffectIndex = 0;
     }
-    Storage::set(StorageLocations::EFFECT, currentEffectIndex);
+    
     currentEffect = effects[currentEffectIndex];
+
+    Storage::set(StorageLocations::EFFECT, currentEffectIndex);
+
+    FastLED.clear();
 }

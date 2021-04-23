@@ -1,8 +1,6 @@
 #include "Effects/RainbowEffect.h"
 
-void RainbowEffect::setup() {
-    auto a = 3;
-}
+void RainbowEffect::setup() { }
 
 void RainbowEffect::loop()
 {
