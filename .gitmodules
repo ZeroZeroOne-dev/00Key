@@ -13,3 +13,6 @@
 [submodule "pcb/kicad/libs/teensy.pretty"]
 	path = pcb/kicad/libs/teensy.pretty
 	url = https://github.com/XenGi/teensy.pretty
+[submodule "pcb/kicad/libs/teensy_library"]
+	path = pcb/kicad/libs/teensy_library
+	url = https://github.com/XenGi/teensy_library
