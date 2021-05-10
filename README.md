@@ -2,53 +2,59 @@
 
 Custom 75% Keyboard.
 
+![build](./images/1.jpeg)
+
 ## Hardware
 
 - Teensy 4.1 development board
 - SSD1306 0.96 Inch OLED Display
 - MX & Alps switch support
-- Backlight (single color)
+- Backlight (single color) support
+- RGB Underglow support
 
 ## Firmware
 
-Custom firmware, has OLED, backlight and layer support.
-
-Currently  no key debounce programmed in yet.
-
-This is my first c++ project, im used to C# development, so all this stuff about header files and pointers are kinda new to me, expect some weird programming choices.
-
-On that note; feel free to open an issue or a pull request if you think something is wrong. 😉
-
+Custom firmware, has layer, OLED, Backlight, Underglow support
 
 ## OLED display
 
-Displays current layer, backlight intensity and capslock status.
+Displays currently shows
 
-## Prototype
+- capslock status
+- Selected layer
+- backlight intensity 
+- Underglow collor selection (RGB Values)
 
-- 2 x 2 key matrix
-- 2 backlight LED
-- OLED display
+## Underglow
 
-![prototype](./images/2.jpeg)
+3 Effects
+- Solid color
+- Rotating rainbow
+- Off
 
 ## PCB
 
 - Designed in kicad
 - Used freerouting for traces
 
-![pcbrender](./images/3.png)
+![pcbrender](./images/2.png)
 
-![pcb](./images/4.jpeg)
-
-## PLATE
+## Backplate
 
 - Designed in FreeCAD
 - Spaced from PCB with (10mm) standoffs
 - STL files included for 3D printing in 2 parts
 
-![platerender](./images/8.png)
+## Case
 
-## FINISHED PRODUCT
+Stacked acrylic case
 
-![00Key](./images/build/DSCF2616.JPG)
+![case](./images/4.JPG)
+
+currently has some issues
+
+- Not enough clearance for stabs (fixed on personal buiild with a dremel)
+- Rounded bottom inner corners prevent keycaps actuation (fixed on personal buiild with a dremel)
+- The pcb flex was too much in the middle because of the top extension (fixed with some 3d printed inserts)
+
+
