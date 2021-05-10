@@ -4,3 +4,6 @@
 [submodule "pcb/kicad/libs/kicad_lib_tmk"]
 	path = pcb/kicad/libs/kicad_lib_tmk
 	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "pcb/kicad/libs/KiCad-SSD1306-128x64"]
+	path = pcb/kicad/libs/KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
