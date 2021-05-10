@@ -10,3 +10,6 @@
 [submodule "pcb/kicad/libs/MX_Alps_Hybrid"]
 	path = pcb/kicad/libs/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid
+[submodule "pcb/kicad/libs/teensy.pretty"]
+	path = pcb/kicad/libs/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty
