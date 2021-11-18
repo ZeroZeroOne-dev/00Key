@@ -51,10 +51,4 @@ Stacked acrylic case
 
 ![case](./images/4.JPG)
 
-currently has some issues
-
-- Not enough clearance for stabs (fixed on personal buiild with a dremel)
-- Rounded bottom inner corners prevent keycaps actuation (fixed on personal buiild with a dremel)
-- The pcb flex was too much in the middle because of the top extension (fixed with some 3d printed inserts)
-
 

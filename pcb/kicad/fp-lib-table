@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name parts)(type KiCad)(uri ${KIPRJMOD}/libs/keyboard_parts.pretty)(options "")(descr ""))
-  (lib (name keys)(type KiCad)(uri ${KIPRJMOD}/libs/MX_Alps_Hybrid/MX_Alps_Hybrid.pretty)(options "")(descr ""))
-  (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/libs/teensy.pretty)(options "")(descr ""))
-  (lib (name oled)(type KiCad)(uri ${KIPRJMOD}/libs/KiCad-SSD1306-128x64/library/SSD1306.pretty)(options "")(descr ""))
-)
