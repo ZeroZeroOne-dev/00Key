@@ -6,7 +6,7 @@ is printed out of clear PETG. Otherwise the light from the RGB LEDs can't be see
 # OpenSCAD
 
 This is designed with OpenSCAD which can be downloaded at https://www.openscad.org. If you want
-to make changes the source files can be edited directly or use the customizer built into OpenSCAD
+to make changes the source files can be edited directly or use the customizer built into OpenSCAD, 
 View --> Customizer.
 
 ## Files
