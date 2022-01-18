@@ -15,7 +15,7 @@ Window --> Customizer.
 | -------- | ---- |
 | 00keyBottom.scad | The main source file of the design, all the available variables are commented <br/>at the top of the file if you want to change something |
 | spacer.scad | The source file for the spacers used to put between the PCB and case |
-| cylinders.scad | A library used by spacers.scad, only the `hollowCylcinder` module is used | 
+| cylinders.scad | A library used by spacers.scad, only the `hollowCylinder` module is used | 
 | cubes.scad | A library used by 00keyBottom.scad, only the `roundedCube` module is used |
 
 # Assembly
