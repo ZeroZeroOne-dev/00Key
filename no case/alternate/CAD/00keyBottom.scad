@@ -18,8 +18,11 @@ cornerRadius = 3.5;
 heatsertOutsideDiameter = 3.4;
 topHoleDelta = 0.4;
 
-//The height of the rear of the case, percent slope is (rearHeight / width * 100). The calculated slope
-//is printed in console for convenience
+//The height of the rear of the case, percent slope is (rearHeight / width * 100). 6-8% slope is common for keyboards. 
+//10.5 gives ~6%, 
+//12 gives ~7% slope.
+//13.7 gives ~8%
+//The calculated slope is printed in the console for convenience
 rearHeight = 12;
 
 //If you want to include the slots for the RGB lights this should be true, false otherwise
@@ -113,7 +116,7 @@ module slant() {
         [length - cornerRadius, cornerRadius] //bottom right
     ];
 
-    //Basically drawing a polyine with the rear/front objects hulled together
+    //Basically drawing a polyline with the rear/front objects hulled together
     hull() {
         translate(slantPoints[0]) frontObject();
         translate(slantPoints[1]) rearObject();
