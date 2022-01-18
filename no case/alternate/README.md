@@ -36,11 +36,11 @@ don't do this you will probably need thicker spacers.
           
 # Side View
      
-![Side View](IMG_0881.png)
+![Side View](IMAGES/IMG_0881.png)
              
 # Bottom View
 
 Note that this picture differs slightly from the final design. There is now an anti-flex support running down the middle
 of the bottom of the case length-wise.
 
-![RGB LED](IMG_0878.png)
+![RGB LED](IMAGES/IMG_0878.png)
