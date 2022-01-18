@@ -40,4 +40,7 @@ don't do this you will probably need thicker spacers.
              
 # Bottom View
 
+Note that this picture differs slightly from the final design. There is now an anti-flex support running down the middle
+of the bottom of the case length-wise.
+
 ![RGB LED](IMG_0878.png)
