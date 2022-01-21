@@ -39,4 +39,4 @@ jobs:
       uses: actions/upload-artifact@v2.3.1
       with:
         name: firmware.hex
-        path: .pio/build/teensy/firmware.hex
+        path: firmware/.pio/build/teensy/firmware.hex
