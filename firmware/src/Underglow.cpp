@@ -16,7 +16,8 @@
 CRGB leds[NUM_LEDS];
 
 BaseEffect *effects[] = {
-    new StaticEffect(leds, NUM_LEDS),
+    new StaticEffect(leds, NUM_LEDS, StorageLocations::RED1, StorageLocations::GREEN1, StorageLocations::BLUE1),
+    new StaticEffect(leds, NUM_LEDS, StorageLocations::RED2, StorageLocations::GREEN2, StorageLocations::BLUE2),
     new RainbowEffect(leds, NUM_LEDS),
     new NoEffect(leds, NUM_LEDS)
 };
@@ -35,6 +36,7 @@ void Underglow::setup()
     
     currentEffectIndex = Storage::get(StorageLocations::EFFECT);
     currentEffect = effects[currentEffectIndex];
+    currentEffect->selected();
 }
 
 void Underglow::loop()
@@ -45,7 +47,7 @@ void Underglow::loop()
 
 void Underglow::nextEffect(){
     currentEffectIndex++;
-    if(currentEffectIndex > 2){
+    if(currentEffectIndex > 3){
         currentEffectIndex = 0;
     }
     
@@ -53,5 +55,15 @@ void Underglow::nextEffect(){
 
     Storage::set(StorageLocations::EFFECT, currentEffectIndex);
 
+    currentEffect->selected();
+
     FastLED.clear();
+}
+
+StaticEffect* Underglow::getCurrentStaticEffect(){
+    if(currentEffectIndex != 0 && currentEffectIndex != 1){
+        return nullptr;
+    }
+
+    return (StaticEffect*)currentEffect;
 }

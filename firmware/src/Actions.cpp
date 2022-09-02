@@ -41,12 +41,16 @@ int timeDelta = 1000;
 
 void startRgbChange(int r, int g, int b)
 {
-    rgbSetStart = millis();
-    StaticEffect::add(r, g, b);
-    timeDelta = 1000;
-    rDelta = r;
-    gDelta = g;
-    bDelta = b;
+    auto effect = Underglow::getCurrentStaticEffect();
+    if (effect != nullptr)
+    {
+        rgbSetStart = millis();
+        effect->add(r, g, b);
+        timeDelta = 1000;
+        rDelta = r;
+        gDelta = g;
+        bDelta = b;
+    }
 }
 
 void stopRgbChange()
@@ -144,17 +148,22 @@ void rgbLoop()
 {
     if ((rDelta != 0 || gDelta != 0 || bDelta != 0) && (millis() - rgbSetStart > timeDelta))
     {
-        StaticEffect::add(rDelta, gDelta, bDelta);
-        rgbSetStart = millis();
-        if (timeDelta == 1000)
+        auto effect = Underglow::getCurrentStaticEffect();
+        if (effect != nullptr)
         {
-            timeDelta = 20;
+            effect->add(rDelta, gDelta, bDelta);
+            rgbSetStart = millis();
+            if (timeDelta == 1000)
+            {
+                timeDelta = 20;
+            }
         }
     }
 }
 
-bool nextEffect(KeyDirection direction){
-    if(direction == KeyDirection::DOWN)
+bool nextEffect(KeyDirection direction)
+{
+    if (direction == KeyDirection::DOWN)
     {
         Underglow::nextEffect();
     }

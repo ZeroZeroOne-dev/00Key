@@ -10,9 +10,9 @@ Adafruit_SSD1306 display(128, 64, &Wire2, -1);
 bool _capsOn = false;
 int _layer = 0;
 int _blPercentage = 0;
-int _rValue = 0;
-int _gValue = 0;
-int _bValue = 0;
+char _rValue[3];
+char _gValue[3];
+char _bValue[3];
 
 bool _splashScreenFinished = false;
 int _splashScreenDuration = 3000;
@@ -132,17 +132,17 @@ void draw()
 	//Red value and box
 	display.drawRect(0, 41, 43, 22, WHITE);
 	display.setCursor(6, 58);
-	display.printf("%03d", _rValue);
+	display.print(_rValue);
 
 	//Green value and box
 	display.drawRect(42, 41, 44, 22, WHITE);
 	display.setCursor(49, 58);
-	display.printf("%03d", _gValue);
+	display.print(_gValue);
 
 	//Blue value and box
 	display.drawRect(85, 41, 43, 22, WHITE);
 	display.setCursor(91, 58);
-	display.printf("%03d", _bValue);
+	display.print(_bValue);
 
 	display.display();
 }
@@ -198,10 +198,10 @@ void OLED::toggleCaps()
 	draw();
 }
 
-void OLED::setUnderglow(int red, int green, int blue)
+void OLED::setUnderglow(char* red, char* green, char* blue)
 {
-	_rValue = red;
-	_gValue = green;
-	_bValue = blue;
+	strncpy(_rValue, red, 3);
+	strncpy(_gValue, green, 3);
+	strncpy(_bValue, blue, 3);
 	draw();
 }

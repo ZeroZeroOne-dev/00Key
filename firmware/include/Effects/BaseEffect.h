@@ -13,6 +13,7 @@ public:
     BaseEffect(CRGB leds[], int num_leds) : _leds(leds), _num_leds(num_leds) {}
     virtual void setup() = 0;
     virtual void loop() = 0;
+    virtual void selected() = 0;
 };
 
 #endif

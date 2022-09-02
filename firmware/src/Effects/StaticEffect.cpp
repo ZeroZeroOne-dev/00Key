@@ -1,27 +1,38 @@
 #include "Effects/StaticEffect.h"
 #include "OLED.h"
 
-int _red = 0;
-int _green = 0;
-int _blue = 0;
-
-int shouldStore = false;
-int storeStart = 0;
-int storeAfter = 3000;
-
-void store()
+StaticEffect::StaticEffect(CRGB leds[], int num_leds, StorageLocations redLocation, StorageLocations greenLocation, StorageLocations blueLocation) : BaseEffect(leds, num_leds)                                                                                                                         
 {
-    Storage::set(StorageLocations::RED, _red);
-    Storage::set(StorageLocations::GREEN, _green);
-    Storage::set(StorageLocations::BLUE, _blue);
+    _redLocation = redLocation;
+    _greenLocation = greenLocation;
+    _blueLocation = blueLocation;                                                                                                 
+}
+
+void StaticEffect::store()
+{
+    Storage::set(_redLocation, _red);
+    Storage::set(_greenLocation, _green);
+    Storage::set(_blueLocation, _blue);
+}
+
+void setOled(int red, int green, int blue){
+    char redChar[3];
+    sprintf(redChar, "%03d", red);
+
+    char greenChar[3];
+    sprintf(greenChar, "%03d", green);
+
+    char blueChar[3];
+    sprintf(blueChar, "%03d", blue);
+
+    OLED::setUnderglow(redChar, greenChar, blueChar);
 }
 
 void StaticEffect::setup()
 {
-    _red = Storage::get(StorageLocations::RED);
-    _green = Storage::get(StorageLocations::GREEN);
-    _blue = Storage::get(StorageLocations::BLUE);
-    OLED::setUnderglow(_red, _green, _blue);
+    _red = Storage::get(_redLocation);
+    _green = Storage::get(_greenLocation);
+    _blue = Storage::get(_blueLocation);
 }
 
 void StaticEffect::loop()
@@ -31,10 +42,10 @@ void StaticEffect::loop()
         _leds[i].setRGB(_red, _green, _blue);
     }
 
-    if(shouldStore && millis() - storeStart > storeAfter)
+    if (_shouldStore && millis() - _storeStart > StoreAfter)
     {
         store();
-        shouldStore = false;
+        _shouldStore = false;
     }
 }
 
@@ -43,10 +54,10 @@ void StaticEffect::set(int red, int green, int blue)
     _red = red;
     _green = green;
     _blue = blue;
-    OLED::setUnderglow(_red, _green, _blue);
+    setOled(_red, _green, _blue);
 
-    shouldStore = true;
-    storeStart = millis();
+    _shouldStore = true;
+    _storeStart = millis();
 }
 
 void StaticEffect::add(int red, int green, int blue)
@@ -66,4 +77,9 @@ void StaticEffect::add(int red, int green, int blue)
     }
 
     set(newRed, newGreen, newBlue);
+}
+
+void StaticEffect::selected()
+{
+    setOled(_red, _green, _blue);
 }

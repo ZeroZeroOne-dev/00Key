@@ -10,6 +10,7 @@ public:
     RainbowEffect(CRGB leds[], int num_leds) : BaseEffect(leds, num_leds) {}
     void setup();
     void loop();
+    void selected();
 };
 
 #endif
