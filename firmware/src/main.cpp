@@ -12,7 +12,7 @@ void setup()
 {
   OLED::setup();
   Backlight::setup();
-  Underglow::setup();
+  // Underglow::setup();
   Scanner::setup();
 }
 
@@ -21,6 +21,6 @@ void loop()
   Scanner::loop();
   Actions::loop();
   OLED::loop();
-  Underglow::loop();
+  // Underglow::loop();
   delay(SCAN_DELAY);
 }
